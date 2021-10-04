@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ModoConfirmacionInfeccionCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="ModoConfirmacionInfeccionCS-1"> </a></td><td>Solo por las manifestaciones clínicas</td></tr><tr><td style="white-space:nowrap">2<a name="ModoConfirmacionInfeccionCS-2"> </a></td><td>Por inmunoensayos</td></tr><tr><td style="white-space:nowrap">3<a name="ModoConfirmacionInfeccionCS-3"> </a></td><td>Por pruebas moleculares</td></tr><tr><td style="white-space:nowrap">0<a name="ModoConfirmacionInfeccionCS-0"> </a></td><td>Otro</td></tr></table></div>
+  </text>
+  <url value="http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS"/>
+  <version value="0.5.0"/>
+  <name value="ModoConfirmacionInfeccionCS"/>
+  <title value="Modo de Confirmaci&#xF3;n de la Infecci&#xF3;n"/>
+  <status value="active"/>
+  <date value="2021-10-03T10:17:18-03:00"/>
+  <publisher value="PAHO"/>
+  <contact>
+    <name value="PAHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://covid-19pharmacovigilance.paho.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="privadadngiss@msal.gov.ar"/>
+    </telecom>
+  </contact>
+  <description value="Modo de Confirmaci&#xF3;n de la Infecci&#xF3;n"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="1"/>
+    <display value="Solo por las manifestaciones cl&#xED;nicas"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Por inmunoensayos"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Por pruebas moleculares"/>
+  </concept>
+  <concept>
+    <code value="0"/>
+    <display value="Otro"/>
+  </concept>
+</CodeSystem>

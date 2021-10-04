@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+  <id value="RespuestaAntecedentesEjemplo"/>
+  <meta>
+    <profile value="http://paho.org/esavi/StructureDefinition/esavi-response-antecedentes"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href="http://aefi.paho.org/questionnaire/ESAVI.antecedentes">http://aefi.paho.org/questionnaire/ESAVI.antecedentes</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href="Patient-PersonaAfectadaEjemplo.html">Generated Summary: Alberto Afectado </a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: i_AntecedentesMedicos</p><p><b>text</b>: Antecedentes Médicos</p><h3>Answers</h3><table class="grid"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>Ejemplo de Antecedentes Medicos</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: i_AntecedentesPreviosSimilares</p><p><b>text</b>: Antecedentes Previos Similares</p><h3>Answers</h3><table class="grid"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="{http://terminology.hl7.org/CodeSystem/v2-0136 Yes}">Yes</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: i_AntecedentesReaccionesAlergicasOtrasVacunas</p><p><b>text</b>: Antecedentes Reacciones Alergicas a Otras Vacunas</p><h3>Answers</h3><table class="grid"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="{http://terminology.hl7.org/CodeSystem/v2-0136 No}">No</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: i_AntecedentesReaccionesAlergicasMedicamentos</p><p><b>text</b>: Antecedentes Reacciones Alergicas Medicamentos</p><h3>Answers</h3><table class="grid"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="{http://terminology.hl7.org/CodeSystem/v2-0136 No}">No</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: i_AntecedentesReaccionesAlergicasMismaVacuna</p><p><b>text</b>: Antecedentes Reacciones Alergicas Misma Vacuna</p><h3>Answers</h3><table class="grid"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="{http://terminology.hl7.org/CodeSystem/v2-0136 No}">No</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: i_AntecedentesSARSCov2</p><p><b>text</b>: Antecedentes SARS COV2</p><h3>Answers</h3><table class="grid"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="{http://terminology.hl7.org/CodeSystem/v2-0136 No}">No</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: i_Asintomatica</p><p><b>text</b>: Asintomatica</p><h3>Answers</h3><table class="grid"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="{http://terminology.hl7.org/CodeSystem/v2-0136 No}">No</span></td></tr></table></blockquote></div>
+  </text>
+  <questionnaire value="http://aefi.paho.org/questionnaire/ESAVI.antecedentes"/>
+  <status value="completed"/>
+  <subject>
+    <reference value="Patient/PersonaAfectadaEjemplo"/>
+  </subject>
+  <item>
+    <linkId value="i_AntecedentesMedicos"/>
+    <text value="Antecedentes M&#xE9;dicos"/>
+    <answer>
+      <valueString value="Ejemplo de Antecedentes Medicos"/>
+    </answer>
+  </item>
+  <item>
+    <linkId value="i_AntecedentesPreviosSimilares"/>
+    <text value="Antecedentes Previos Similares"/>
+    <answer>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0136"/>
+        <code value="Yes"/>
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="i_AntecedentesReaccionesAlergicasOtrasVacunas"/>
+    <text value="Antecedentes Reacciones Alergicas a Otras Vacunas"/>
+    <answer>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0136"/>
+        <code value="No"/>
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="i_AntecedentesReaccionesAlergicasMedicamentos"/>
+    <text value="Antecedentes Reacciones Alergicas Medicamentos"/>
+    <answer>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0136"/>
+        <code value="No"/>
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="i_AntecedentesReaccionesAlergicasMismaVacuna"/>
+    <text value="Antecedentes Reacciones Alergicas Misma Vacuna"/>
+    <answer>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0136"/>
+        <code value="No"/>
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="i_AntecedentesSARSCov2"/>
+    <text value="Antecedentes SARS COV2"/>
+    <answer>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0136"/>
+        <code value="No"/>
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="i_Asintomatica"/>
+    <text value="Asintomatica"/>
+    <answer>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0136"/>
+        <code value="No"/>
+      </valueCoding>
+    </answer>
+  </item>
+</QuestionnaireResponse>

@@ -1,0 +1,739 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/QuestionnaireResponse/EsaviRespuestaCompleta> a fhir:QuestionnaireResponse;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "EsaviRespuestaCompleta"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|2.7";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|2.7>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"http://paho.org/esavi/notification/v2\">http://paho.org/esavi/notification/v2</a></p><p><b>status</b>: completed</p><p><b>authored</b>: Oct 3, 2021, 9:55:29 AM</p><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF</p><p><b>text</b>: Información de la Persona Afectada</p><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.NUMERO_CASO</p><p><b>text</b>: Número de Caso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.APELLIDOS</p><p><b>text</b>: Apellidos</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.NOMBRES</p><p><b>text</b>: Nombres</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.NUMEROIDNAC</p><p><b>text</b>: Numero de Identificacion Nacional</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.DIRECCION</p><p><b>text</b>: DireccionCompleta</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.NIVELGEO</p><p><b>text</b>: Nivel Geografico Subnacional</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.TELEFONO</p><p><b>text</b>: Número de Teléfono</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.EMAIL</p><p><b>text</b>: Dirección de Correo Electrónico</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.SEXO</p><p><b>text</b>: Sexo</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.FECHA_NACIMIENTO</p><p><b>text</b>: FechaNacimiento</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.GRUPO_ETNICO</p><p><b>text</b>: Grupo Etnico</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.EDAD.CANTIDAD</p><p><b>text</b>: Edad al Inicio</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.EDAD.TIPO</p><p><b>text</b>: Tipo de Edad</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO</p><p><b>text</b>: Datos de la Persona Notificadora</p><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.APELLIDOS</p><p><b>text</b>: Apellidos</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.NOMBRES</p><p><b>text</b>: Nombres</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.PROFESION</p><p><b>text</b>: Profesión</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.CARGO</p><p><b>text</b>: Cargo</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.INSTITUCION</p><p><b>text</b>: Institución</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.DIRECCION</p><p><b>text</b>: Dirección Completa del Notificador</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.TELEFONO</p><p><b>text</b>: Teléfono del Notificador</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.EMAIL</p><p><b>text</b>: Correo Electrónico del Notificador</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.FECHA_CONSULTA</p><p><b>text</b>: Fecha de Consulta</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.FECHA_LLENADO</p><p><b>text</b>: Fecha de Llenado de la Ficha</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV</p><p><b>text</b>: Antecedentes de la Persona Vacunada</p><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTECMED</p><p><b>text</b>: Antecedentes Médicos</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTPSIM</p><p><b>text</b>: Antecedentes Previos Similares</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTOTV</p><p><b>text</b>: Antecedentes Reacción Alérgica a Otras Vacunas</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTOME</p><p><b>text</b>: Antecedente Reacción Alérgica a Otros Medicamentos</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTMIV</p><p><b>text</b>: Antecedentes Reacción Alérgica a Misma Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.INFCOV</p><p><b>text</b>: Antecedentes de Infección SARS COV2</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.FESINT</p><p><b>text</b>: Fecha de Inicio de Sintomas</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.MODOCON</p><p><b>text</b>: Modo de Confirmación de Infección</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.EXPLCO</p><p><b>text</b>: Explicación de Confirmación de Infección</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.FECTOC</p><p><b>text</b>: Fecha de Toma de Muestra Confirmatoria</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO</p><p><b>text</b>: Participacion en Ensayo Clinico SARS COV2</p><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.PARTICIPO</p><p><b>text</b>: Participó de un Ensayo Clínico de Vacunas Contra SARS COV2</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.MEDICAMENTO</p><p><b>text</b>: Medicamento</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.PRESENTACION</p><p><b>text</b>: Presentacion</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.DOSIS</p><p><b>text</b>: Dosis</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.VIA_ADMINISTRACION</p><p><b>text</b>: Via de Administración</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.FECHA_INICIO</p><p><b>text</b>: Fecha de Inicio</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: EMBARAZO</p><p><b>text</b>: Detalles de Embarazo</p><blockquote><p><b>item</b></p><p><b>linkId</b>: EMBARAZO.ESTADO</p><p><b>text</b>: Estado de Embarazo</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION</p><p><b>text</b>: Datos de la Administración de la Vacuna</p><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.INSTITUCION</p><p><b>text</b>: Institución de Salud donde se Vacunó</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DIRECCION</p><p><b>text</b>: Dirección del Lugar de Vacunación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.GENERICO</p><p><b>text</b>: Nombre Genérico de la Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.COMERCIAL</p><p><b>text</b>: Nombre Comercial de la Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.FABRICANTE</p><p><b>text</b>: Fabricante de la Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.FECHA</p><p><b>text</b>: Fecha de Vacunación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.HORA</p><p><b>text</b>: Hora de Vacunación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DOSIS</p><p><b>text</b>: Dosis de Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.NROLOTE</p><p><b>text</b>: Número de Lote</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.FECHAVTO</p><p><b>text</b>: Fecha de Vencimiento</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DILUYENTE_NOMBRE</p><p><b>text</b>: Nombre del Diluyente</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DILUYENTE_NROLOTE</p><p><b>text</b>: Número de Lote del Diluyente</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DILUYENTE_FECHAVTO</p><p><b>text</b>: Fecha de Vencimiento del Diluyente</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.RECONST_FECHA</p><p><b>text</b>: Fecha de Reconstitución</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.RECONST_HORA</p><p><b>text</b>: Hora de Reconstitución</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACPREVIA</p><p><b>text</b>: VacunacionPrevia</p><blockquote><p><b>item</b></p><p><b>linkId</b>: VACPREVIA.INDICADOR</p><p><b>text</b>: Indicador Vacunación Previa</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACPREVIA.VACUNA</p><p><b>text</b>: Vacuna Administrada Previamente</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACPREVIA.MODO_VERIFICACION</p><p><b>text</b>: Modo Verificación Vacuna Previa</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI</p><p><b>text</b>: Evento Adverso</p><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.TIPO</p><p><b>text</b>: Tipo de Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.FECHA</p><p><b>text</b>: Fecha Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.HORA</p><p><b>text</b>: Hora de Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.CODIGO</p><p><b>text</b>: Codigo de Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.DESCRIPCION</p><p><b>text</b>: Descripción del Evento Adverso</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: GRAVEDAD</p><p><b>text</b>: Gravedad del Evento Adverso</p><blockquote><p><b>item</b></p><p><b>linkId</b>: GRAVEDAD.INDICADOR</p><p><b>text</b>: Evento Adverso Grave</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: GRAVEDAD.MUERTE</p><p><b>text</b>: Gravedad del ESAVI: Muerte</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE</p><p><b>text</b>: Desenlace</p><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE.TIPO</p><p><b>text</b>: Desenlace del Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE.FECHA_MUERTE</p><p><b>text</b>: Fecha de Muerte</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE.AUTOPSIA</p><p><b>text</b>: Se Realizó Autopsia</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE_INVESTIGACION</p><p><b>text</b>: Se requiere investigación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE_INVESTIGACION_TIPO</p><p><b>text</b>: Tipo de Investigación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE_INVESTIGACION_FECHA</p><p><b>text</b>: Fecha Planeada de Investigación</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: CONCLUSIONES</p><p><b>text</b>: Conclusiones</p><blockquote><p><b>item</b></p><p><b>linkId</b>: CONCLUSIONES.COMENTARIOS</p><p><b>text</b>: Comentarios Finales</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: CONCLUSIONES.FECHA_RECEPCION</p><p><b>text</b>: Fecha Recepción Nivel Nacional</p></blockquote></blockquote></div>"
+  ];
+  fhir:QuestionnaireResponse.questionnaire [
+     fhir:value "http://paho.org/esavi/notification/v2";
+     fhir:link <http://paho.org/esavi/notification/v2>
+  ];
+  fhir:QuestionnaireResponse.status [ fhir:value "completed"];
+  fhir:QuestionnaireResponse.authored [ fhir:value "2021-10-03T12:55:29.182Z"^^xsd:dateTime];
+  fhir:QuestionnaireResponse.item [
+     fhir:index 0;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Información de la Persona Afectada" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.NUMERO_CASO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Número de Caso" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "MX-330202-1131" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.APELLIDOS" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Apellidos" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "PATRON MARQUEZ" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.NOMBRES" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Nombres" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "LIBELO JOAQUIN" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.NUMEROIDNAC" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Numero de Identificacion Nacional" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "09293202" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.DIRECCION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "DireccionCompleta" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "CALLE 20 MANZANA 33 LOS CEDROS MEXICO DF MEXICO" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.NIVELGEO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Nivel Geografico Subnacional" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "LOCALIDAD" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.TELEFONO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Número de Teléfono" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "+445512345678" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.EMAIL" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Dirección de Correo Electrónico" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "patronmarquez@gmail.com" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.SEXO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Sexo" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "male" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.FECHA_NACIMIENTO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "FechaNacimiento" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "1968-09-20"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 10;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.GRUPO_ETNICO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Grupo Etnico" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS" ];
+           fhir:Coding.code [ fhir:value "2" ];
+           fhir:Coding.display [ fhir:value "Blanco" ]
+         ]
+       ]
+     ], [
+       fhir:index 11;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.EDAD.CANTIDAD" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Edad al Inicio" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueInteger [ fhir:value "53"^^xsd:integer ]
+       ]
+     ], [
+       fhir:index 12;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSAF.EDAD.TIPO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Tipo de Edad" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://unitsofmeasure.org" ];
+           fhir:Coding.code [ fhir:value "a" ];
+           fhir:Coding.display [ fhir:value "Años" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Datos de la Persona Notificadora" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.APELLIDOS" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Apellidos" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "LAPLAZ PITALUGA" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.NOMBRES" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Nombres" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "MARIO FEDERICO DE LAS MERCEDES" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.PROFESION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Profesión" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "MEDICO INTERNISTA" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.CARGO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Cargo" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "JEFE DE TERAPIA INTENSIVA" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.INSTITUCION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Institución" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "HOSPITAL REGIONAL DE LOS CEDROS" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.DIRECCION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Dirección Completa del Notificador" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "CIRCUNVALACION S/N, LOS CEDROS, MEXICO DF, MEXICO" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.TELEFONO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Teléfono del Notificador" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "+4455876544321" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.EMAIL" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Correo Electrónico del Notificador" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "laplaz@hospitalloscedros.gob.mx" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.FECHA_CONSULTA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Consulta" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-09-20"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "PERSNO.FECHA_LLENADO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Llenado de la Ficha" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-10-03"^^xsd:date ]
+       ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Antecedentes de la Persona Vacunada" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.ANTECMED" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Antecedentes Médicos" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "Paciente hipertenso, obeso, con problemas neurológicos" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.ANTPSIM" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Antecedentes Previos Similares" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ];
+           fhir:Coding.code [ fhir:value "1" ];
+           fhir:Coding.display [ fhir:value "Sí" ]
+         ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.ANTOTV" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Antecedentes Reacción Alérgica a Otras Vacunas" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ];
+           fhir:Coding.code [ fhir:value "1" ];
+           fhir:Coding.display [ fhir:value "Sí" ]
+         ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.ANTOME" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Antecedente Reacción Alérgica a Otros Medicamentos" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ];
+           fhir:Coding.code [ fhir:value "2" ];
+           fhir:Coding.display [ fhir:value "No" ]
+         ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.ANTMIV" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Antecedentes Reacción Alérgica a Misma Vacuna" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ];
+           fhir:Coding.code [ fhir:value "1" ];
+           fhir:Coding.display [ fhir:value "Sí" ]
+         ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.INFCOV" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Antecedentes de Infección SARS COV2" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ];
+           fhir:Coding.code [ fhir:value "1" ];
+           fhir:Coding.display [ fhir:value "Sí" ]
+         ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.FESINT" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Inicio de Sintomas" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-05-20"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.MODOCON" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Modo de Confirmación de Infección" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS" ];
+           fhir:Coding.code [ fhir:value "1" ];
+           fhir:Coding.display [ fhir:value "Solo por las manifestaciones clínicas" ]
+         ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.EXPLCO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Explicación de Confirmación de Infección" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "Fiebre, nauseas, diarrea, anosmia" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ANTEPV.FECTOC" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Toma de Muestra Confirmatoria" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-05-22"^^xsd:date ]
+       ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "ENSAYO" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Participacion en Ensayo Clinico SARS COV2" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ENSAYO.PARTICIPO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Participó de un Ensayo Clínico de Vacunas Contra SARS COV2" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ];
+           fhir:Coding.code [ fhir:value "1" ];
+           fhir:Coding.display [ fhir:value "Sí" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ENSAYO.MEDICAMENTO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Medicamento" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "Johnson" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ENSAYO.PRESENTACION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Presentacion" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "Monodosis" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ENSAYO.DOSIS" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Dosis" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "1" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ENSAYO.VIA_ADMINISTRACION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Via de Administración" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "Inyectable" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ENSAYO.FECHA_INICIO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Inicio" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-03-20"^^xsd:date ]
+       ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "EMBARAZO" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Detalles de Embarazo" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "EMBARAZO.ESTADO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Estado de Embarazo" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ];
+           fhir:Coding.code [ fhir:value "2" ];
+           fhir:Coding.display [ fhir:value "No" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Datos de la Administración de la Vacuna" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.INSTITUCION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Institución de Salud donde se Vacunó" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "CLINICA LOS CEDROS SUR" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.DIRECCION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Dirección del Lugar de Vacunación" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "Avenida Insurgentes 3302, Los Cedros, Mexico DF, Mexico" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.GENERICO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Nombre Genérico de la Vacuna" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "SINOPHARM" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.COMERCIAL" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Nombre Comercial de la Vacuna" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "SINOPHARM" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.FABRICANTE" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fabricante de la Vacuna" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "SINOPHARM" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.FECHA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Vacunación" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-09-20"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.HORA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Hora de Vacunación" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueTime [ fhir:value "10:30:00"^^xsd:time ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.DOSIS" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Dosis de Vacuna" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "1" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.NROLOTE" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Número de Lote" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "9393091209" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.FECHAVTO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Vencimiento" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "09/20/2022" ]
+       ]
+     ], [
+       fhir:index 10;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.DILUYENTE_NOMBRE" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Nombre del Diluyente" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "DILUPHARM" ]
+       ]
+     ], [
+       fhir:index 11;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.DILUYENTE_NROLOTE" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Número de Lote del Diluyente" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "392039023" ]
+       ]
+     ], [
+       fhir:index 12;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.DILUYENTE_FECHAVTO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Vencimiento del Diluyente" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2022-09-20"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 13;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.RECONST_FECHA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Reconstitución" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-09-20"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 14;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACUNACION.RECONST_HORA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Hora de Reconstitución" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueTime [ fhir:value "07:00:00"^^xsd:time ]
+       ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACPREVIA" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "VacunacionPrevia" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACPREVIA.INDICADOR" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Indicador Vacunación Previa" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ];
+           fhir:Coding.code [ fhir:value "1" ];
+           fhir:Coding.display [ fhir:value "Sí" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACPREVIA.VACUNA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Vacuna Administrada Previamente" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "SINOPHARM" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "VACPREVIA.MODO_VERIFICACION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Modo Verificación Vacuna Previa" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS" ];
+           fhir:Coding.code [ fhir:value "1" ];
+           fhir:Coding.display [ fhir:value "Carnet/Registro físico" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "ESAVI" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Evento Adverso" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ESAVI.TIPO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Tipo de Evento Adverso" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS" ];
+           fhir:Coding.code [ fhir:value "10" ];
+           fhir:Coding.display [ fhir:value "Encefalitis" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ESAVI.FECHA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha Evento Adverso" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-10-03"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ESAVI.HORA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Hora de Evento Adverso" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueTime [ fhir:value "11:00:00"^^xsd:time ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ESAVI.CODIGO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Codigo de Evento Adverso" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "G04.90" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "ESAVI.DESCRIPCION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Descripción del Evento Adverso" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "Encefalitis con complicaciones seguida de muerte" ]
+       ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "GRAVEDAD" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Gravedad del Evento Adverso" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "GRAVEDAD.INDICADOR" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Evento Adverso Grave" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "GRAVEDAD.MUERTE" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Gravedad del ESAVI: Muerte" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "DESENLACE" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Desenlace" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "DESENLACE.TIPO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Desenlace del Evento Adverso" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS" ];
+           fhir:Coding.code [ fhir:value "5" ];
+           fhir:Coding.display [ fhir:value "Muerte" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "DESENLACE.FECHA_MUERTE" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha de Muerte" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-10-05"^^xsd:date ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "DESENLACE.AUTOPSIA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Se Realizó Autopsia" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ];
+           fhir:Coding.code [ fhir:value "1" ];
+           fhir:Coding.display [ fhir:value "Sí" ]
+         ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "DESENLACE_INVESTIGACION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Se requiere investigación" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "DESENLACE_INVESTIGACION_TIPO" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Tipo de Investigación" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueCoding [
+           fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/InvestigacionTipoCS" ];
+           fhir:Coding.code [ fhir:value "2" ];
+           fhir:Coding.display [ fhir:value "Completa" ]
+         ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "DESENLACE_INVESTIGACION_FECHA" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha Planeada de Investigación" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-10-10"^^xsd:date ]
+       ]
+     ]
+  ], [
+     fhir:index 10;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "CONCLUSIONES" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Conclusiones" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "CONCLUSIONES.COMENTARIOS" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Comentarios Finales" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "Se requiere correlacionar los sintomas e historia" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "CONCLUSIONES.FECHA_RECEPCION" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Fecha Recepción Nivel Nacional" ];
+       fhir:QuestionnaireResponse.item.answer [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "2021-05-10"^^xsd:date ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/QuestionnaireResponse/EsaviRespuestaCompleta.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

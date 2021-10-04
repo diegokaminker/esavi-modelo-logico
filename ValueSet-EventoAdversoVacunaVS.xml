@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="EventoAdversoVacunaVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-EventoAdversoVacunaCS.html"><code>http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS</code></a></li></ul></div>
+  </text>
+  <url value="http://paho.org/esavi/ValueSet/EventoAdversoVacunaVS"/>
+  <version value="0.5.0"/>
+  <name value="EventoAdversoVacunaVS"/>
+  <title value="Evento Adverso  de Vacuna"/>
+  <status value="active"/>
+  <date value="2021-10-03T10:17:18-03:00"/>
+  <publisher value="PAHO"/>
+  <contact>
+    <name value="PAHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://covid-19pharmacovigilance.paho.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="privadadngiss@msal.gov.ar"/>
+    </telecom>
+  </contact>
+  <description value="Evento Adverso de Vacuna"/>
+  <compose>
+    <include>
+      <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+    </include>
+  </compose>
+</ValueSet>

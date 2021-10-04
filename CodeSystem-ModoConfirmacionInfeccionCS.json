@@ -1,0 +1,51 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ModoConfirmacionInfeccionCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"ModoConfirmacionInfeccionCS-1\"> </a></td><td>Solo por las manifestaciones clínicas</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"ModoConfirmacionInfeccionCS-2\"> </a></td><td>Por inmunoensayos</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"ModoConfirmacionInfeccionCS-3\"> </a></td><td>Por pruebas moleculares</td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"ModoConfirmacionInfeccionCS-0\"> </a></td><td>Otro</td></tr></table></div>"
+  },
+  "url": "http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS",
+  "version": "0.5.0",
+  "name": "ModoConfirmacionInfeccionCS",
+  "title": "Modo de Confirmación de la Infección",
+  "status": "active",
+  "date": "2021-10-03T10:17:18-03:00",
+  "publisher": "PAHO",
+  "contact": [
+    {
+      "name": "PAHO",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system": "email",
+          "value": "privadadngiss@msal.gov.ar"
+        }
+      ]
+    }
+  ],
+  "description": "Modo de Confirmación de la Infección",
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "1",
+      "display": "Solo por las manifestaciones clínicas"
+    },
+    {
+      "code": "2",
+      "display": "Por inmunoensayos"
+    },
+    {
+      "code": "3",
+      "display": "Por pruebas moleculares"
+    },
+    {
+      "code": "0",
+      "display": "Otro"
+    }
+  ]
+}

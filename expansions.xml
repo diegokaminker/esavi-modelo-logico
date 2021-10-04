@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="dbf9b48f-36c6-4dae-8239-ad7cd923886d"/>
+  <meta>
+    <lastUpdated value="2021-10-03T10:17:18.878-03:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://paho.org/esavi/ValueSet/ModoVerificacionVacunaVS"/>
+    <resource>
+      <ValueSet>
+        <id value="ModoVerificacionVacunaVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-ModoVerificacionVacunaCS.html">Modo de Verificación de Vacunación Previa v0.5.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-ModoVerificacionVacunaCS.html">
+                <code>http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-1"> </a>
+                  <a href="CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-1">1</a>
+                </td>
+                <td>Carnet/Registro físico</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-2"> </a>
+                  <a href="CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-2">2</a>
+                </td>
+                <td>Carnet/Registro electrónico</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-3"> </a>
+                  <a href="CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-3">3</a>
+                </td>
+                <td>Declaración verbal</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-4"> </a>
+                  <a href="CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-4">4</a>
+                </td>
+                <td>Historia clínica corroborada con carnet</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-5"> </a>
+                  <a href="CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-5">5</a>
+                </td>
+                <td>No se sabe</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-O"> </a>
+                  <a href="CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-O">O</a>
+                </td>
+                <td>Otro</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://paho.org/esavi/ValueSet/ModoVerificacionVacunaVS"/>
+        <version value="0.5.0"/>
+        <name value="ModoVerificacionVacunaVS"/>
+        <title value="Modos de Verificacion de Vacuna"/>
+        <status value="active"/>
+        <date value="2021-10-03T10:17:18-03:00"/>
+        <publisher value="PAHO"/>
+        <contact>
+          <name value="PAHO"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://covid-19pharmacovigilance.paho.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="privadadngiss@msal.gov.ar"/>
+          </telecom>
+        </contact>
+        <description value="Modos de Verificacion de Vacuna"/>
+        <expansion>
+          <identifier value="urn:uuid:b48c073e-cfb4-4f76-af79-626d3dcda98b"/>
+          <timestamp value="2021-10-03T10:17:31-03:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS|0.5.0"/>
+          </parameter>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS"/>
+            <code value="1"/>
+            <display value="Carnet/Registro f&#xED;sico"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS"/>
+            <code value="2"/>
+            <display value="Carnet/Registro electr&#xF3;nico"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS"/>
+            <code value="3"/>
+            <display value="Declaraci&#xF3;n verbal"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS"/>
+            <code value="4"/>
+            <display value="Historia cl&#xED;nica corroborada con carnet"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS"/>
+            <code value="5"/>
+            <display value="No se sabe"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS"/>
+            <code value="O"/>
+            <display value="Otro"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://paho.org/esavi/ValueSet/EventoAdversoVacunaVS"/>
+    <resource>
+      <ValueSet>
+        <id value="EventoAdversoVacunaVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 15 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-EventoAdversoVacunaCS.html">Eventos Adversos v0.5.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-EventoAdversoVacunaCS.html">
+                <code>http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-1"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-1">1</a>
+                </td>
+                <td>Fiebre mayor a 38°C</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-2"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-2">2</a>
+                </td>
+                <td>Dolor en el sitio de la inyección</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-3"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-3">3</a>
+                </td>
+                <td>Eritema en el sitio de la inyección</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-4"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-4">4</a>
+                </td>
+                <td>Inflamación en el sitio de la inyección</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-5"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-5">5</a>
+                </td>
+                <td>Cefalea</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-6"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-6">6</a>
+                </td>
+                <td>Convulsiones febriles</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-7"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-7">7</a>
+                </td>
+                <td>Absceso</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-8"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-8">8</a>
+                </td>
+                <td>Linfadenitis</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-9"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-9">9</a>
+                </td>
+                <td>Encefalopatía</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-10"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-10">10</a>
+                </td>
+                <td>Encefalitis</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-11"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-11">11</a>
+                </td>
+                <td>Trombocitopenia</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-12"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-12">12</a>
+                </td>
+                <td>Anafilaxis</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-13"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-13">13</a>
+                </td>
+                <td>Síndrome de shock tóxico</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-14"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-14">14</a>
+                </td>
+                <td>Sepsis</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-0"> </a>
+                  <a href="CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-0">0</a>
+                </td>
+                <td>Otro</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://paho.org/esavi/ValueSet/EventoAdversoVacunaVS"/>
+        <version value="0.5.0"/>
+        <name value="EventoAdversoVacunaVS"/>
+        <title value="Evento Adverso  de Vacuna"/>
+        <status value="active"/>
+        <date value="2021-10-03T10:17:18-03:00"/>
+        <publisher value="PAHO"/>
+        <contact>
+          <name value="PAHO"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://covid-19pharmacovigilance.paho.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="privadadngiss@msal.gov.ar"/>
+          </telecom>
+        </contact>
+        <description value="Evento Adverso de Vacuna"/>
+        <expansion>
+          <identifier value="urn:uuid:78d7d25f-e041-4351-8464-3d8560300f79"/>
+          <timestamp value="2021-10-03T10:17:31-03:00"/>
+          <total value="15"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS|0.5.0"/>
+          </parameter>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="1"/>
+            <display value="Fiebre mayor a 38&#xB0;C"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="2"/>
+            <display value="Dolor en el sitio de la inyecci&#xF3;n"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="3"/>
+            <display value="Eritema en el sitio de la inyecci&#xF3;n"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="4"/>
+            <display value="Inflamaci&#xF3;n en el sitio de la inyecci&#xF3;n"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="5"/>
+            <display value="Cefalea"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="6"/>
+            <display value="Convulsiones febriles"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="7"/>
+            <display value="Absceso"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="8"/>
+            <display value="Linfadenitis"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="9"/>
+            <display value="Encefalopat&#xED;a"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="10"/>
+            <display value="Encefalitis"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="11"/>
+            <display value="Trombocitopenia"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="12"/>
+            <display value="Anafilaxis"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="13"/>
+            <display value="S&#xED;ndrome de shock t&#xF3;xico"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="14"/>
+            <display value="Sepsis"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+            <code value="0"/>
+            <display value="Otro"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://paho.org/esavi/ValueSet/ClasificacionDesenlaceVS"/>
+    <resource>
+      <ValueSet>
+        <id value="ClasificacionDesenlaceVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-ClasificacionDesenlaceCS.html">Clasificacion de Desenlace v0.5.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-ClasificacionDesenlaceCS.html">
+                <code>http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-1"> </a>
+                  <a href="CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-1">1</a>
+                </td>
+                <td>Recuperado</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-2"> </a>
+                  <a href="CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-2">2</a>
+                </td>
+                <td>En remisión / recuperación</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-3"> </a>
+                  <a href="CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-3">3</a>
+                </td>
+                <td>No recuperado</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-4"> </a>
+                  <a href="CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-4">4</a>
+                </td>
+                <td>Recuperado con secuelas</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-5"> </a>
+                  <a href="CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-5">5</a>
+                </td>
+                <td>Muerte</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-0"> </a>
+                  <a href="CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-0">0</a>
+                </td>
+                <td>Desconocido</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://paho.org/esavi/ValueSet/ClasificacionDesenlaceVS"/>
+        <version value="0.5.0"/>
+        <name value="ClasificacionDesenlaceVS"/>
+        <title value="Clasificaci&#xF3;n de Desenlace"/>
+        <status value="active"/>
+        <date value="2021-10-03T10:17:18-03:00"/>
+        <publisher value="PAHO"/>
+        <contact>
+          <name value="PAHO"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://covid-19pharmacovigilance.paho.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="privadadngiss@msal.gov.ar"/>
+          </telecom>
+        </contact>
+        <description value="Clasificaci&#xF3;n de Desenlace"/>
+        <expansion>
+          <identifier value="urn:uuid:25d3f2ef-bdda-430f-8b9d-e6e41e3ac6ec"/>
+          <timestamp value="2021-10-03T10:17:31-03:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS|0.5.0"/>
+          </parameter>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS"/>
+            <code value="1"/>
+            <display value="Recuperado"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS"/>
+            <code value="2"/>
+            <display value="En remisi&#xF3;n / recuperaci&#xF3;n"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS"/>
+            <code value="3"/>
+            <display value="No recuperado"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS"/>
+            <code value="4"/>
+            <display value="Recuperado con secuelas"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS"/>
+            <code value="5"/>
+            <display value="Muerte"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS"/>
+            <code value="0"/>
+            <display value="Desconocido"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://paho.org/esavi/ValueSet/InvestigacionTipoVS"/>
+    <resource>
+      <ValueSet>
+        <id value="InvestigacionTipoVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-InvestigacionTipoCS.html">Tipo de Investigación v0.5.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-InvestigacionTipoCS.html">
+                <code>http://paho.org/esavi/CodeSystem/InvestigacionTipoCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-InvestigacionTipoCS-1"> </a>
+                  <a href="CodeSystem-InvestigacionTipoCS.html#InvestigacionTipoCS-1">1</a>
+                </td>
+                <td>Concisa</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-InvestigacionTipoCS-2"> </a>
+                  <a href="CodeSystem-InvestigacionTipoCS.html#InvestigacionTipoCS-2">2</a>
+                </td>
+                <td>Completa</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://paho.org/esavi/ValueSet/InvestigacionTipoVS"/>
+        <version value="0.5.0"/>
+        <name value="InvestigacionTipoVS"/>
+        <title value="Tipo de Investigaci&#xF3;n"/>
+        <status value="active"/>
+        <date value="2021-10-03T10:17:18-03:00"/>
+        <publisher value="PAHO"/>
+        <contact>
+          <name value="PAHO"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://covid-19pharmacovigilance.paho.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="privadadngiss@msal.gov.ar"/>
+          </telecom>
+        </contact>
+        <description value="Tipo de Investigaci&#xF3;n"/>
+        <expansion>
+          <identifier value="urn:uuid:049dbd39-9857-4672-945a-d893e47c1e07"/>
+          <timestamp value="2021-10-03T10:17:31-03:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://paho.org/esavi/CodeSystem/InvestigacionTipoCS|0.5.0"/>
+          </parameter>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/InvestigacionTipoCS"/>
+            <code value="1"/>
+            <display value="Concisa"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/InvestigacionTipoCS"/>
+            <code value="2"/>
+            <display value="Completa"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS"/>
+    <resource>
+      <ValueSet>
+        <id value="RespuestaSiNoNosabeVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-RespuestaSiNoNosabeCS.html">Respuestas Si/No/No Sabe v0.5.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-RespuestaSiNoNosabeCS.html">
+                <code>http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-RespuestaSiNoNosabeCS-1"> </a>
+                  <a href="CodeSystem-RespuestaSiNoNosabeCS.html#RespuestaSiNoNosabeCS-1">1</a>
+                </td>
+                <td>Si</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-RespuestaSiNoNosabeCS-2"> </a>
+                  <a href="CodeSystem-RespuestaSiNoNosabeCS.html#RespuestaSiNoNosabeCS-2">2</a>
+                </td>
+                <td>No</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-RespuestaSiNoNosabeCS-3"> </a>
+                  <a href="CodeSystem-RespuestaSiNoNosabeCS.html#RespuestaSiNoNosabeCS-3">3</a>
+                </td>
+                <td>No sabe</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS"/>
+        <version value="0.5.0"/>
+        <name value="RespuestaSiNoNosabeVS"/>
+        <status value="active"/>
+        <date value="2021-10-03T10:17:18-03:00"/>
+        <publisher value="PAHO"/>
+        <contact>
+          <name value="PAHO"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://covid-19pharmacovigilance.paho.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="privadadngiss@msal.gov.ar"/>
+          </telecom>
+        </contact>
+        <description value="Para capturar respuestas simples si/no/no sabe"/>
+        <expansion>
+          <identifier value="urn:uuid:1dfd26d1-33bb-46cd-b4d6-39a1b24c6579"/>
+          <timestamp value="2021-10-03T10:17:31-03:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS|0.5.0"/>
+          </parameter>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+            <code value="1"/>
+            <display value="Si"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+            <code value="2"/>
+            <display value="No"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+            <code value="3"/>
+            <display value="No sabe"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://paho.org/esavi/ValueSet/GrupoEtnicoVS"/>
+    <resource>
+      <ValueSet>
+        <id value="GrupoEtnicoVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-GrupoEtnicoCS.html">Códigos de Grupo Etnico v0.5.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-GrupoEtnicoCS.html">
+                <code>http://paho.org/esavi/CodeSystem/GrupoEtnicoCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-1"> </a>
+                  <a href="CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-1">1</a>
+                </td>
+                <td>Mestizo</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-2"> </a>
+                  <a href="CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-2">2</a>
+                </td>
+                <td>Blanco</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-3"> </a>
+                  <a href="CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-3">3</a>
+                </td>
+                <td>Mulato</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-4"> </a>
+                  <a href="CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-4">4</a>
+                </td>
+                <td>Negro</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-5"> </a>
+                  <a href="CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-5">5</a>
+                </td>
+                <td>Amerindio</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-6"> </a>
+                  <a href="CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-6">6</a>
+                </td>
+                <td>Zambo</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-0"> </a>
+                  <a href="CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-0">0</a>
+                </td>
+                <td>Otro</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://paho.org/esavi/ValueSet/GrupoEtnicoVS"/>
+        <version value="0.5.0"/>
+        <name value="GrupoEtnicoVS"/>
+        <title value="C&#xF3;digos de Grupo Etnico"/>
+        <status value="active"/>
+        <date value="2021-10-03T10:17:18-03:00"/>
+        <publisher value="PAHO"/>
+        <contact>
+          <name value="PAHO"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://covid-19pharmacovigilance.paho.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="privadadngiss@msal.gov.ar"/>
+          </telecom>
+        </contact>
+        <description value="C&#xF3;digos de Grupo Etnico"/>
+        <expansion>
+          <identifier value="urn:uuid:e6173953-1063-43e6-a82f-c90276c8e75a"/>
+          <timestamp value="2021-10-03T10:17:31-03:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://paho.org/esavi/CodeSystem/GrupoEtnicoCS|0.5.0"/>
+          </parameter>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/GrupoEtnicoCS"/>
+            <code value="1"/>
+            <display value="Mestizo"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/GrupoEtnicoCS"/>
+            <code value="2"/>
+            <display value="Blanco"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/GrupoEtnicoCS"/>
+            <code value="3"/>
+            <display value="Mulato"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/GrupoEtnicoCS"/>
+            <code value="4"/>
+            <display value="Negro"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/GrupoEtnicoCS"/>
+            <code value="5"/>
+            <display value="Amerindio"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/GrupoEtnicoCS"/>
+            <code value="6"/>
+            <display value="Zambo"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/GrupoEtnicoCS"/>
+            <code value="0"/>
+            <display value="Otro"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS"/>
+    <resource>
+      <ValueSet>
+        <id value="RespuestaVerdaderoFalsoVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-RespuestaVerdaderoFalsoCS.html">Respuestas Verdadero/Falso v0.5.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-RespuestaVerdaderoFalsoCS.html">
+                <code>http://paho.org/esavi/CodeSystem/RespuestaVerdaderoFalsoCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-RespuestaVerdaderoFalsoCS-1"> </a>
+                  <a href="CodeSystem-RespuestaVerdaderoFalsoCS.html#RespuestaVerdaderoFalsoCS-1">1</a>
+                </td>
+                <td>Verdadero</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-RespuestaVerdaderoFalsoCS-2"> </a>
+                  <a href="CodeSystem-RespuestaVerdaderoFalsoCS.html#RespuestaVerdaderoFalsoCS-2">2</a>
+                </td>
+                <td>Falso</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS"/>
+        <version value="0.5.0"/>
+        <name value="RespuestaVerdaderoFalsoVS"/>
+        <status value="active"/>
+        <date value="2021-10-03T10:17:18-03:00"/>
+        <publisher value="PAHO"/>
+        <contact>
+          <name value="PAHO"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://covid-19pharmacovigilance.paho.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="privadadngiss@msal.gov.ar"/>
+          </telecom>
+        </contact>
+        <description value="Para capturar respuestas simples Verdadero/Falso"/>
+        <expansion>
+          <identifier value="urn:uuid:6634def3-5990-4f3c-8450-683b7f22fdef"/>
+          <timestamp value="2021-10-03T10:17:31-03:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://paho.org/esavi/CodeSystem/RespuestaVerdaderoFalsoCS|0.5.0"/>
+          </parameter>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/RespuestaVerdaderoFalsoCS"/>
+            <code value="1"/>
+            <display value="Verdadero"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/RespuestaVerdaderoFalsoCS"/>
+            <code value="2"/>
+            <display value="Falso"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://paho.org/esavi/ValueSet/ModoConfirmacionInfeccionVS"/>
+    <resource>
+      <ValueSet>
+        <id value="ModoConfirmacionInfeccionVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-ModoConfirmacionInfeccionCS.html">Modo de Confirmación de la Infección v0.5.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-ModoConfirmacionInfeccionCS.html">
+                <code>http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoConfirmacionInfeccionCS-1"> </a>
+                  <a href="CodeSystem-ModoConfirmacionInfeccionCS.html#ModoConfirmacionInfeccionCS-1">1</a>
+                </td>
+                <td>Solo por las manifestaciones clínicas</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoConfirmacionInfeccionCS-2"> </a>
+                  <a href="CodeSystem-ModoConfirmacionInfeccionCS.html#ModoConfirmacionInfeccionCS-2">2</a>
+                </td>
+                <td>Por inmunoensayos</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoConfirmacionInfeccionCS-3"> </a>
+                  <a href="CodeSystem-ModoConfirmacionInfeccionCS.html#ModoConfirmacionInfeccionCS-3">3</a>
+                </td>
+                <td>Por pruebas moleculares</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---paho.org-esavi-CodeSystem-ModoConfirmacionInfeccionCS-0"> </a>
+                  <a href="CodeSystem-ModoConfirmacionInfeccionCS.html#ModoConfirmacionInfeccionCS-0">0</a>
+                </td>
+                <td>Otro</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://paho.org/esavi/ValueSet/ModoConfirmacionInfeccionVS"/>
+        <version value="0.5.0"/>
+        <name value="ModoConfirmacionInfeccionVS"/>
+        <title value="Modos de Confirmacion de Infeccion"/>
+        <status value="active"/>
+        <date value="2021-10-03T10:17:18-03:00"/>
+        <publisher value="PAHO"/>
+        <contact>
+          <name value="PAHO"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://covid-19pharmacovigilance.paho.org"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="privadadngiss@msal.gov.ar"/>
+          </telecom>
+        </contact>
+        <description value="Modos de Confirmacion de Infeccion"/>
+        <expansion>
+          <identifier value="urn:uuid:3365e572-2b5e-4f0d-a2da-258c1e0226f5"/>
+          <timestamp value="2021-10-03T10:17:31-03:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS|0.5.0"/>
+          </parameter>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS"/>
+            <code value="1"/>
+            <display value="Solo por las manifestaciones cl&#xED;nicas"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS"/>
+            <code value="2"/>
+            <display value="Por inmunoensayos"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS"/>
+            <code value="3"/>
+            <display value="Por pruebas moleculares"/>
+          </contains>
+          <contains>
+            <system value="http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS"/>
+            <code value="0"/>
+            <display value="Otro"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

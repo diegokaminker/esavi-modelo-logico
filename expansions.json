@@ -1,0 +1,575 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "dbf9b48f-36c6-4dae-8239-ad7cd923886d",
+  "meta" : {
+    "lastUpdated" : "2021-10-03T10:17:18.878-03:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://paho.org/esavi/ValueSet/ModoVerificacionVacunaVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "ModoVerificacionVacunaVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-ModoVerificacionVacunaCS.html\">Modo de Verificación de Vacunación Previa v0.5.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-ModoVerificacionVacunaCS.html\"><code>http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-1\"> </a><a href=\"CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-1\">1</a></td><td>Carnet/Registro físico</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-2\"> </a><a href=\"CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-2\">2</a></td><td>Carnet/Registro electrónico</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-3\"> </a><a href=\"CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-3\">3</a></td><td>Declaración verbal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-4\"> </a><a href=\"CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-4\">4</a></td><td>Historia clínica corroborada con carnet</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-5\"> </a><a href=\"CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-5\">5</a></td><td>No se sabe</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoVerificacionVacunaCS-O\"> </a><a href=\"CodeSystem-ModoVerificacionVacunaCS.html#ModoVerificacionVacunaCS-O\">O</a></td><td>Otro</td><td/></tr></table></div>"
+      },
+      "url" : "http://paho.org/esavi/ValueSet/ModoVerificacionVacunaVS",
+      "version" : "0.5.0",
+      "name" : "ModoVerificacionVacunaVS",
+      "title" : "Modos de Verificacion de Vacuna",
+      "status" : "active",
+      "date" : "2021-10-03T10:17:18-03:00",
+      "publisher" : "PAHO",
+      "contact" : [{
+        "name" : "PAHO",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system" : "email",
+          "value" : "privadadngiss@msal.gov.ar"
+        }]
+      }],
+      "description" : "Modos de Verificacion de Vacuna",
+      "expansion" : {
+        "identifier" : "urn:uuid:b48c073e-cfb4-4f76-af79-626d3dcda98b",
+        "timestamp" : "2021-10-03T10:17:31-03:00",
+        "total" : 6,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS|0.5.0"
+        }],
+        "contains" : [{
+          "system" : "http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS",
+          "code" : "1",
+          "display" : "Carnet/Registro físico"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS",
+          "code" : "2",
+          "display" : "Carnet/Registro electrónico"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS",
+          "code" : "3",
+          "display" : "Declaración verbal"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS",
+          "code" : "4",
+          "display" : "Historia clínica corroborada con carnet"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS",
+          "code" : "5",
+          "display" : "No se sabe"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS",
+          "code" : "O",
+          "display" : "Otro"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://paho.org/esavi/ValueSet/EventoAdversoVacunaVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "EventoAdversoVacunaVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 15 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-EventoAdversoVacunaCS.html\">Eventos Adversos v0.5.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-EventoAdversoVacunaCS.html\"><code>http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-1\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-1\">1</a></td><td>Fiebre mayor a 38°C</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-2\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-2\">2</a></td><td>Dolor en el sitio de la inyección</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-3\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-3\">3</a></td><td>Eritema en el sitio de la inyección</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-4\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-4\">4</a></td><td>Inflamación en el sitio de la inyección</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-5\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-5\">5</a></td><td>Cefalea</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-6\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-6\">6</a></td><td>Convulsiones febriles</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-7\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-7\">7</a></td><td>Absceso</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-8\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-8\">8</a></td><td>Linfadenitis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-9\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-9\">9</a></td><td>Encefalopatía</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-10\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-10\">10</a></td><td>Encefalitis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-11\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-11\">11</a></td><td>Trombocitopenia</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-12\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-12\">12</a></td><td>Anafilaxis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-13\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-13\">13</a></td><td>Síndrome de shock tóxico</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-14\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-14\">14</a></td><td>Sepsis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-EventoAdversoVacunaCS-0\"> </a><a href=\"CodeSystem-EventoAdversoVacunaCS.html#EventoAdversoVacunaCS-0\">0</a></td><td>Otro</td><td/></tr></table></div>"
+      },
+      "url" : "http://paho.org/esavi/ValueSet/EventoAdversoVacunaVS",
+      "version" : "0.5.0",
+      "name" : "EventoAdversoVacunaVS",
+      "title" : "Evento Adverso  de Vacuna",
+      "status" : "active",
+      "date" : "2021-10-03T10:17:18-03:00",
+      "publisher" : "PAHO",
+      "contact" : [{
+        "name" : "PAHO",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system" : "email",
+          "value" : "privadadngiss@msal.gov.ar"
+        }]
+      }],
+      "description" : "Evento Adverso de Vacuna",
+      "expansion" : {
+        "identifier" : "urn:uuid:78d7d25f-e041-4351-8464-3d8560300f79",
+        "timestamp" : "2021-10-03T10:17:31-03:00",
+        "total" : 15,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS|0.5.0"
+        }],
+        "contains" : [{
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "1",
+          "display" : "Fiebre mayor a 38°C"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "2",
+          "display" : "Dolor en el sitio de la inyección"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "3",
+          "display" : "Eritema en el sitio de la inyección"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "4",
+          "display" : "Inflamación en el sitio de la inyección"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "5",
+          "display" : "Cefalea"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "6",
+          "display" : "Convulsiones febriles"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "7",
+          "display" : "Absceso"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "8",
+          "display" : "Linfadenitis"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "9",
+          "display" : "Encefalopatía"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "10",
+          "display" : "Encefalitis"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "11",
+          "display" : "Trombocitopenia"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "12",
+          "display" : "Anafilaxis"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "13",
+          "display" : "Síndrome de shock tóxico"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "14",
+          "display" : "Sepsis"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+          "code" : "0",
+          "display" : "Otro"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://paho.org/esavi/ValueSet/ClasificacionDesenlaceVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "ClasificacionDesenlaceVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-ClasificacionDesenlaceCS.html\">Clasificacion de Desenlace v0.5.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-ClasificacionDesenlaceCS.html\"><code>http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-1\"> </a><a href=\"CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-1\">1</a></td><td>Recuperado</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-2\"> </a><a href=\"CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-2\">2</a></td><td>En remisión / recuperación</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-3\"> </a><a href=\"CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-3\">3</a></td><td>No recuperado</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-4\"> </a><a href=\"CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-4\">4</a></td><td>Recuperado con secuelas</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-5\"> </a><a href=\"CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-5\">5</a></td><td>Muerte</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ClasificacionDesenlaceCS-0\"> </a><a href=\"CodeSystem-ClasificacionDesenlaceCS.html#ClasificacionDesenlaceCS-0\">0</a></td><td>Desconocido</td><td/></tr></table></div>"
+      },
+      "url" : "http://paho.org/esavi/ValueSet/ClasificacionDesenlaceVS",
+      "version" : "0.5.0",
+      "name" : "ClasificacionDesenlaceVS",
+      "title" : "Clasificación de Desenlace",
+      "status" : "active",
+      "date" : "2021-10-03T10:17:18-03:00",
+      "publisher" : "PAHO",
+      "contact" : [{
+        "name" : "PAHO",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system" : "email",
+          "value" : "privadadngiss@msal.gov.ar"
+        }]
+      }],
+      "description" : "Clasificación de Desenlace",
+      "expansion" : {
+        "identifier" : "urn:uuid:25d3f2ef-bdda-430f-8b9d-e6e41e3ac6ec",
+        "timestamp" : "2021-10-03T10:17:31-03:00",
+        "total" : 6,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS|0.5.0"
+        }],
+        "contains" : [{
+          "system" : "http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS",
+          "code" : "1",
+          "display" : "Recuperado"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS",
+          "code" : "2",
+          "display" : "En remisión / recuperación"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS",
+          "code" : "3",
+          "display" : "No recuperado"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS",
+          "code" : "4",
+          "display" : "Recuperado con secuelas"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS",
+          "code" : "5",
+          "display" : "Muerte"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS",
+          "code" : "0",
+          "display" : "Desconocido"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://paho.org/esavi/ValueSet/InvestigacionTipoVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "InvestigacionTipoVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-InvestigacionTipoCS.html\">Tipo de Investigación v0.5.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-InvestigacionTipoCS.html\"><code>http://paho.org/esavi/CodeSystem/InvestigacionTipoCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-InvestigacionTipoCS-1\"> </a><a href=\"CodeSystem-InvestigacionTipoCS.html#InvestigacionTipoCS-1\">1</a></td><td>Concisa</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-InvestigacionTipoCS-2\"> </a><a href=\"CodeSystem-InvestigacionTipoCS.html#InvestigacionTipoCS-2\">2</a></td><td>Completa</td><td/></tr></table></div>"
+      },
+      "url" : "http://paho.org/esavi/ValueSet/InvestigacionTipoVS",
+      "version" : "0.5.0",
+      "name" : "InvestigacionTipoVS",
+      "title" : "Tipo de Investigación",
+      "status" : "active",
+      "date" : "2021-10-03T10:17:18-03:00",
+      "publisher" : "PAHO",
+      "contact" : [{
+        "name" : "PAHO",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system" : "email",
+          "value" : "privadadngiss@msal.gov.ar"
+        }]
+      }],
+      "description" : "Tipo de Investigación",
+      "expansion" : {
+        "identifier" : "urn:uuid:049dbd39-9857-4672-945a-d893e47c1e07",
+        "timestamp" : "2021-10-03T10:17:31-03:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://paho.org/esavi/CodeSystem/InvestigacionTipoCS|0.5.0"
+        }],
+        "contains" : [{
+          "system" : "http://paho.org/esavi/CodeSystem/InvestigacionTipoCS",
+          "code" : "1",
+          "display" : "Concisa"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/InvestigacionTipoCS",
+          "code" : "2",
+          "display" : "Completa"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "RespuestaSiNoNosabeVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-RespuestaSiNoNosabeCS.html\">Respuestas Si/No/No Sabe v0.5.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-RespuestaSiNoNosabeCS.html\"><code>http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-RespuestaSiNoNosabeCS-1\"> </a><a href=\"CodeSystem-RespuestaSiNoNosabeCS.html#RespuestaSiNoNosabeCS-1\">1</a></td><td>Si</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-RespuestaSiNoNosabeCS-2\"> </a><a href=\"CodeSystem-RespuestaSiNoNosabeCS.html#RespuestaSiNoNosabeCS-2\">2</a></td><td>No</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-RespuestaSiNoNosabeCS-3\"> </a><a href=\"CodeSystem-RespuestaSiNoNosabeCS.html#RespuestaSiNoNosabeCS-3\">3</a></td><td>No sabe</td><td/></tr></table></div>"
+      },
+      "url" : "http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS",
+      "version" : "0.5.0",
+      "name" : "RespuestaSiNoNosabeVS",
+      "status" : "active",
+      "date" : "2021-10-03T10:17:18-03:00",
+      "publisher" : "PAHO",
+      "contact" : [{
+        "name" : "PAHO",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system" : "email",
+          "value" : "privadadngiss@msal.gov.ar"
+        }]
+      }],
+      "description" : "Para capturar respuestas simples si/no/no sabe",
+      "expansion" : {
+        "identifier" : "urn:uuid:1dfd26d1-33bb-46cd-b4d6-39a1b24c6579",
+        "timestamp" : "2021-10-03T10:17:31-03:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS|0.5.0"
+        }],
+        "contains" : [{
+          "system" : "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS",
+          "code" : "1",
+          "display" : "Si"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS",
+          "code" : "2",
+          "display" : "No"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS",
+          "code" : "3",
+          "display" : "No sabe"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://paho.org/esavi/ValueSet/GrupoEtnicoVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "GrupoEtnicoVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-GrupoEtnicoCS.html\">Códigos de Grupo Etnico v0.5.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-GrupoEtnicoCS.html\"><code>http://paho.org/esavi/CodeSystem/GrupoEtnicoCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-1\"> </a><a href=\"CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-1\">1</a></td><td>Mestizo</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-2\"> </a><a href=\"CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-2\">2</a></td><td>Blanco</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-3\"> </a><a href=\"CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-3\">3</a></td><td>Mulato</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-4\"> </a><a href=\"CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-4\">4</a></td><td>Negro</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-5\"> </a><a href=\"CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-5\">5</a></td><td>Amerindio</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-6\"> </a><a href=\"CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-6\">6</a></td><td>Zambo</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-GrupoEtnicoCS-0\"> </a><a href=\"CodeSystem-GrupoEtnicoCS.html#GrupoEtnicoCS-0\">0</a></td><td>Otro</td><td/></tr></table></div>"
+      },
+      "url" : "http://paho.org/esavi/ValueSet/GrupoEtnicoVS",
+      "version" : "0.5.0",
+      "name" : "GrupoEtnicoVS",
+      "title" : "Códigos de Grupo Etnico",
+      "status" : "active",
+      "date" : "2021-10-03T10:17:18-03:00",
+      "publisher" : "PAHO",
+      "contact" : [{
+        "name" : "PAHO",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system" : "email",
+          "value" : "privadadngiss@msal.gov.ar"
+        }]
+      }],
+      "description" : "Códigos de Grupo Etnico",
+      "expansion" : {
+        "identifier" : "urn:uuid:e6173953-1063-43e6-a82f-c90276c8e75a",
+        "timestamp" : "2021-10-03T10:17:31-03:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS|0.5.0"
+        }],
+        "contains" : [{
+          "system" : "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS",
+          "code" : "1",
+          "display" : "Mestizo"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS",
+          "code" : "2",
+          "display" : "Blanco"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS",
+          "code" : "3",
+          "display" : "Mulato"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS",
+          "code" : "4",
+          "display" : "Negro"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS",
+          "code" : "5",
+          "display" : "Amerindio"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS",
+          "code" : "6",
+          "display" : "Zambo"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS",
+          "code" : "0",
+          "display" : "Otro"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "RespuestaVerdaderoFalsoVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-RespuestaVerdaderoFalsoCS.html\">Respuestas Verdadero/Falso v0.5.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-RespuestaVerdaderoFalsoCS.html\"><code>http://paho.org/esavi/CodeSystem/RespuestaVerdaderoFalsoCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-RespuestaVerdaderoFalsoCS-1\"> </a><a href=\"CodeSystem-RespuestaVerdaderoFalsoCS.html#RespuestaVerdaderoFalsoCS-1\">1</a></td><td>Verdadero</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-RespuestaVerdaderoFalsoCS-2\"> </a><a href=\"CodeSystem-RespuestaVerdaderoFalsoCS.html#RespuestaVerdaderoFalsoCS-2\">2</a></td><td>Falso</td><td/></tr></table></div>"
+      },
+      "url" : "http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS",
+      "version" : "0.5.0",
+      "name" : "RespuestaVerdaderoFalsoVS",
+      "status" : "active",
+      "date" : "2021-10-03T10:17:18-03:00",
+      "publisher" : "PAHO",
+      "contact" : [{
+        "name" : "PAHO",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system" : "email",
+          "value" : "privadadngiss@msal.gov.ar"
+        }]
+      }],
+      "description" : "Para capturar respuestas simples Verdadero/Falso",
+      "expansion" : {
+        "identifier" : "urn:uuid:6634def3-5990-4f3c-8450-683b7f22fdef",
+        "timestamp" : "2021-10-03T10:17:31-03:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://paho.org/esavi/CodeSystem/RespuestaVerdaderoFalsoCS|0.5.0"
+        }],
+        "contains" : [{
+          "system" : "http://paho.org/esavi/CodeSystem/RespuestaVerdaderoFalsoCS",
+          "code" : "1",
+          "display" : "Verdadero"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/RespuestaVerdaderoFalsoCS",
+          "code" : "2",
+          "display" : "Falso"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://paho.org/esavi/ValueSet/ModoConfirmacionInfeccionVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "ModoConfirmacionInfeccionVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-ModoConfirmacionInfeccionCS.html\">Modo de Confirmación de la Infección v0.5.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-ModoConfirmacionInfeccionCS.html\"><code>http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoConfirmacionInfeccionCS-1\"> </a><a href=\"CodeSystem-ModoConfirmacionInfeccionCS.html#ModoConfirmacionInfeccionCS-1\">1</a></td><td>Solo por las manifestaciones clínicas</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoConfirmacionInfeccionCS-2\"> </a><a href=\"CodeSystem-ModoConfirmacionInfeccionCS.html#ModoConfirmacionInfeccionCS-2\">2</a></td><td>Por inmunoensayos</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoConfirmacionInfeccionCS-3\"> </a><a href=\"CodeSystem-ModoConfirmacionInfeccionCS.html#ModoConfirmacionInfeccionCS-3\">3</a></td><td>Por pruebas moleculares</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---paho.org-esavi-CodeSystem-ModoConfirmacionInfeccionCS-0\"> </a><a href=\"CodeSystem-ModoConfirmacionInfeccionCS.html#ModoConfirmacionInfeccionCS-0\">0</a></td><td>Otro</td><td/></tr></table></div>"
+      },
+      "url" : "http://paho.org/esavi/ValueSet/ModoConfirmacionInfeccionVS",
+      "version" : "0.5.0",
+      "name" : "ModoConfirmacionInfeccionVS",
+      "title" : "Modos de Confirmacion de Infeccion",
+      "status" : "active",
+      "date" : "2021-10-03T10:17:18-03:00",
+      "publisher" : "PAHO",
+      "contact" : [{
+        "name" : "PAHO",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system" : "email",
+          "value" : "privadadngiss@msal.gov.ar"
+        }]
+      }],
+      "description" : "Modos de Confirmacion de Infeccion",
+      "expansion" : {
+        "identifier" : "urn:uuid:3365e572-2b5e-4f0d-a2da-258c1e0226f5",
+        "timestamp" : "2021-10-03T10:17:31-03:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS|0.5.0"
+        }],
+        "contains" : [{
+          "system" : "http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS",
+          "code" : "1",
+          "display" : "Solo por las manifestaciones clínicas"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS",
+          "code" : "2",
+          "display" : "Por inmunoensayos"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS",
+          "code" : "3",
+          "display" : "Por pruebas moleculares"
+        },
+        {
+          "system" : "http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS",
+          "code" : "0",
+          "display" : "Otro"
+        }]
+      }
+    }
+  }]
+}

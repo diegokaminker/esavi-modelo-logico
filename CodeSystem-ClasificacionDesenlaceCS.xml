@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ClasificacionDesenlaceCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="ClasificacionDesenlaceCS-1"> </a></td><td>Recuperado</td></tr><tr><td style="white-space:nowrap">2<a name="ClasificacionDesenlaceCS-2"> </a></td><td>En remisión / recuperación</td></tr><tr><td style="white-space:nowrap">3<a name="ClasificacionDesenlaceCS-3"> </a></td><td>No recuperado</td></tr><tr><td style="white-space:nowrap">4<a name="ClasificacionDesenlaceCS-4"> </a></td><td>Recuperado con secuelas</td></tr><tr><td style="white-space:nowrap">5<a name="ClasificacionDesenlaceCS-5"> </a></td><td>Muerte</td></tr><tr><td style="white-space:nowrap">0<a name="ClasificacionDesenlaceCS-0"> </a></td><td>Desconocido</td></tr></table></div>
+  </text>
+  <url value="http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS"/>
+  <version value="0.5.0"/>
+  <name value="ClasificacionDesenlaceCS"/>
+  <title value="Clasificacion de Desenlace"/>
+  <status value="active"/>
+  <date value="2021-10-03T10:17:18-03:00"/>
+  <publisher value="PAHO"/>
+  <contact>
+    <name value="PAHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://covid-19pharmacovigilance.paho.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="privadadngiss@msal.gov.ar"/>
+    </telecom>
+  </contact>
+  <description value="Clasificacion de Desenlace"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="1"/>
+    <display value="Recuperado"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="En remisi&#xF3;n / recuperaci&#xF3;n"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="No recuperado"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Recuperado con secuelas"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Muerte"/>
+  </concept>
+  <concept>
+    <code value="0"/>
+    <display value="Desconocido"/>
+  </concept>
+</CodeSystem>

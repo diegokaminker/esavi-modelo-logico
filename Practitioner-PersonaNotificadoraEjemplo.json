@@ -1,0 +1,21 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PersonaNotificadoraEjemplo",
+  "meta": {
+    "profile": [
+      "http://paho.org/esavi/StructureDefinition/Practitioner-esavi"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: María Notificadora </p></div>"
+  },
+  "name": [
+    {
+      "family": "Notificadora",
+      "given": [
+        "María"
+      ]
+    }
+  ]
+}

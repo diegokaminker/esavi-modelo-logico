@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+  <id value="EsaviRespuestaCompleta"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|2.7"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href="http://paho.org/esavi/notification/v2">http://paho.org/esavi/notification/v2</a></p><p><b>status</b>: completed</p><p><b>authored</b>: Oct 3, 2021, 9:55:29 AM</p><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF</p><p><b>text</b>: Información de la Persona Afectada</p><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.NUMERO_CASO</p><p><b>text</b>: Número de Caso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.APELLIDOS</p><p><b>text</b>: Apellidos</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.NOMBRES</p><p><b>text</b>: Nombres</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.NUMEROIDNAC</p><p><b>text</b>: Numero de Identificacion Nacional</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.DIRECCION</p><p><b>text</b>: DireccionCompleta</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.NIVELGEO</p><p><b>text</b>: Nivel Geografico Subnacional</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.TELEFONO</p><p><b>text</b>: Número de Teléfono</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.EMAIL</p><p><b>text</b>: Dirección de Correo Electrónico</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.SEXO</p><p><b>text</b>: Sexo</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.FECHA_NACIMIENTO</p><p><b>text</b>: FechaNacimiento</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.GRUPO_ETNICO</p><p><b>text</b>: Grupo Etnico</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.EDAD.CANTIDAD</p><p><b>text</b>: Edad al Inicio</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSAF.EDAD.TIPO</p><p><b>text</b>: Tipo de Edad</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO</p><p><b>text</b>: Datos de la Persona Notificadora</p><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.APELLIDOS</p><p><b>text</b>: Apellidos</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.NOMBRES</p><p><b>text</b>: Nombres</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.PROFESION</p><p><b>text</b>: Profesión</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.CARGO</p><p><b>text</b>: Cargo</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.INSTITUCION</p><p><b>text</b>: Institución</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.DIRECCION</p><p><b>text</b>: Dirección Completa del Notificador</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.TELEFONO</p><p><b>text</b>: Teléfono del Notificador</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.EMAIL</p><p><b>text</b>: Correo Electrónico del Notificador</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.FECHA_CONSULTA</p><p><b>text</b>: Fecha de Consulta</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: PERSNO.FECHA_LLENADO</p><p><b>text</b>: Fecha de Llenado de la Ficha</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV</p><p><b>text</b>: Antecedentes de la Persona Vacunada</p><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTECMED</p><p><b>text</b>: Antecedentes Médicos</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTPSIM</p><p><b>text</b>: Antecedentes Previos Similares</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTOTV</p><p><b>text</b>: Antecedentes Reacción Alérgica a Otras Vacunas</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTOME</p><p><b>text</b>: Antecedente Reacción Alérgica a Otros Medicamentos</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.ANTMIV</p><p><b>text</b>: Antecedentes Reacción Alérgica a Misma Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.INFCOV</p><p><b>text</b>: Antecedentes de Infección SARS COV2</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.FESINT</p><p><b>text</b>: Fecha de Inicio de Sintomas</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.MODOCON</p><p><b>text</b>: Modo de Confirmación de Infección</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.EXPLCO</p><p><b>text</b>: Explicación de Confirmación de Infección</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ANTEPV.FECTOC</p><p><b>text</b>: Fecha de Toma de Muestra Confirmatoria</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO</p><p><b>text</b>: Participacion en Ensayo Clinico SARS COV2</p><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.PARTICIPO</p><p><b>text</b>: Participó de un Ensayo Clínico de Vacunas Contra SARS COV2</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.MEDICAMENTO</p><p><b>text</b>: Medicamento</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.PRESENTACION</p><p><b>text</b>: Presentacion</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.DOSIS</p><p><b>text</b>: Dosis</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.VIA_ADMINISTRACION</p><p><b>text</b>: Via de Administración</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ENSAYO.FECHA_INICIO</p><p><b>text</b>: Fecha de Inicio</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: EMBARAZO</p><p><b>text</b>: Detalles de Embarazo</p><blockquote><p><b>item</b></p><p><b>linkId</b>: EMBARAZO.ESTADO</p><p><b>text</b>: Estado de Embarazo</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION</p><p><b>text</b>: Datos de la Administración de la Vacuna</p><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.INSTITUCION</p><p><b>text</b>: Institución de Salud donde se Vacunó</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DIRECCION</p><p><b>text</b>: Dirección del Lugar de Vacunación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.GENERICO</p><p><b>text</b>: Nombre Genérico de la Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.COMERCIAL</p><p><b>text</b>: Nombre Comercial de la Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.FABRICANTE</p><p><b>text</b>: Fabricante de la Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.FECHA</p><p><b>text</b>: Fecha de Vacunación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.HORA</p><p><b>text</b>: Hora de Vacunación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DOSIS</p><p><b>text</b>: Dosis de Vacuna</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.NROLOTE</p><p><b>text</b>: Número de Lote</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.FECHAVTO</p><p><b>text</b>: Fecha de Vencimiento</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DILUYENTE_NOMBRE</p><p><b>text</b>: Nombre del Diluyente</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DILUYENTE_NROLOTE</p><p><b>text</b>: Número de Lote del Diluyente</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.DILUYENTE_FECHAVTO</p><p><b>text</b>: Fecha de Vencimiento del Diluyente</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.RECONST_FECHA</p><p><b>text</b>: Fecha de Reconstitución</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACUNACION.RECONST_HORA</p><p><b>text</b>: Hora de Reconstitución</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACPREVIA</p><p><b>text</b>: VacunacionPrevia</p><blockquote><p><b>item</b></p><p><b>linkId</b>: VACPREVIA.INDICADOR</p><p><b>text</b>: Indicador Vacunación Previa</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACPREVIA.VACUNA</p><p><b>text</b>: Vacuna Administrada Previamente</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: VACPREVIA.MODO_VERIFICACION</p><p><b>text</b>: Modo Verificación Vacuna Previa</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI</p><p><b>text</b>: Evento Adverso</p><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.TIPO</p><p><b>text</b>: Tipo de Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.FECHA</p><p><b>text</b>: Fecha Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.HORA</p><p><b>text</b>: Hora de Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.CODIGO</p><p><b>text</b>: Codigo de Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: ESAVI.DESCRIPCION</p><p><b>text</b>: Descripción del Evento Adverso</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: GRAVEDAD</p><p><b>text</b>: Gravedad del Evento Adverso</p><blockquote><p><b>item</b></p><p><b>linkId</b>: GRAVEDAD.INDICADOR</p><p><b>text</b>: Evento Adverso Grave</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: GRAVEDAD.MUERTE</p><p><b>text</b>: Gravedad del ESAVI: Muerte</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE</p><p><b>text</b>: Desenlace</p><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE.TIPO</p><p><b>text</b>: Desenlace del Evento Adverso</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE.FECHA_MUERTE</p><p><b>text</b>: Fecha de Muerte</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE.AUTOPSIA</p><p><b>text</b>: Se Realizó Autopsia</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE_INVESTIGACION</p><p><b>text</b>: Se requiere investigación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE_INVESTIGACION_TIPO</p><p><b>text</b>: Tipo de Investigación</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: DESENLACE_INVESTIGACION_FECHA</p><p><b>text</b>: Fecha Planeada de Investigación</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: CONCLUSIONES</p><p><b>text</b>: Conclusiones</p><blockquote><p><b>item</b></p><p><b>linkId</b>: CONCLUSIONES.COMENTARIOS</p><p><b>text</b>: Comentarios Finales</p></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: CONCLUSIONES.FECHA_RECEPCION</p><p><b>text</b>: Fecha Recepción Nivel Nacional</p></blockquote></blockquote></div>
+  </text>
+  <questionnaire value="http://paho.org/esavi/notification/v2"/>
+  <status value="completed"/>
+  <authored value="2021-10-03T12:55:29.182Z"/>
+  <item>
+    <linkId value="PERSAF"/>
+    <text value="Informaci&#xF3;n de la Persona Afectada"/>
+    <item>
+      <linkId value="PERSAF.NUMERO_CASO"/>
+      <text value="N&#xFA;mero de Caso"/>
+      <answer>
+        <valueString value="MX-330202-1131"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.APELLIDOS"/>
+      <text value="Apellidos"/>
+      <answer>
+        <valueString value="PATRON MARQUEZ"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.NOMBRES"/>
+      <text value="Nombres"/>
+      <answer>
+        <valueString value="LIBELO JOAQUIN"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.NUMEROIDNAC"/>
+      <text value="Numero de Identificacion Nacional"/>
+      <answer>
+        <valueString value="09293202"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.DIRECCION"/>
+      <text value="DireccionCompleta"/>
+      <answer>
+        <valueString value="CALLE 20 MANZANA 33 LOS CEDROS MEXICO DF MEXICO"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.NIVELGEO"/>
+      <text value="Nivel Geografico Subnacional"/>
+      <answer>
+        <valueString value="LOCALIDAD"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.TELEFONO"/>
+      <text value="N&#xFA;mero de Tel&#xE9;fono"/>
+      <answer>
+        <valueString value="+445512345678"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.EMAIL"/>
+      <text value="Direcci&#xF3;n de Correo Electr&#xF3;nico"/>
+      <answer>
+        <valueString value="patronmarquez@gmail.com"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.SEXO"/>
+      <text value="Sexo"/>
+      <answer>
+        <valueString value="male"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.FECHA_NACIMIENTO"/>
+      <text value="FechaNacimiento"/>
+      <answer>
+        <valueDate value="1968-09-20"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.GRUPO_ETNICO"/>
+      <text value="Grupo Etnico"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/GrupoEtnicoCS"/>
+          <code value="2"/>
+          <display value="Blanco"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.EDAD.CANTIDAD"/>
+      <text value="Edad al Inicio"/>
+      <answer>
+        <valueInteger value="53"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSAF.EDAD.TIPO"/>
+      <text value="Tipo de Edad"/>
+      <answer>
+        <valueCoding>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="a"/>
+          <display value="A&#xF1;os"/>
+        </valueCoding>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="PERSNO"/>
+    <text value="Datos de la Persona Notificadora"/>
+    <item>
+      <linkId value="PERSNO.APELLIDOS"/>
+      <text value="Apellidos"/>
+      <answer>
+        <valueString value="LAPLAZ PITALUGA"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSNO.NOMBRES"/>
+      <text value="Nombres"/>
+      <answer>
+        <valueString value="MARIO FEDERICO DE LAS MERCEDES"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSNO.PROFESION"/>
+      <text value="Profesi&#xF3;n"/>
+      <answer>
+        <valueString value="MEDICO INTERNISTA"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSNO.CARGO"/>
+      <text value="Cargo"/>
+      <answer>
+        <valueString value="JEFE DE TERAPIA INTENSIVA"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSNO.INSTITUCION"/>
+      <text value="Instituci&#xF3;n"/>
+      <answer>
+        <valueString value="HOSPITAL REGIONAL DE LOS CEDROS"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSNO.DIRECCION"/>
+      <text value="Direcci&#xF3;n Completa del Notificador"/>
+      <answer>
+        <valueString value="CIRCUNVALACION S/N, LOS CEDROS, MEXICO DF, MEXICO"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSNO.TELEFONO"/>
+      <text value="Tel&#xE9;fono del Notificador"/>
+      <answer>
+        <valueString value="+4455876544321"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSNO.EMAIL"/>
+      <text value="Correo Electr&#xF3;nico del Notificador"/>
+      <answer>
+        <valueString value="laplaz@hospitalloscedros.gob.mx"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSNO.FECHA_CONSULTA"/>
+      <text value="Fecha de Consulta"/>
+      <answer>
+        <valueDate value="2021-09-20"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PERSNO.FECHA_LLENADO"/>
+      <text value="Fecha de Llenado de la Ficha"/>
+      <answer>
+        <valueDate value="2021-10-03"/>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="ANTEPV"/>
+    <text value="Antecedentes de la Persona Vacunada"/>
+    <item>
+      <linkId value="ANTEPV.ANTECMED"/>
+      <text value="Antecedentes M&#xE9;dicos"/>
+      <answer>
+        <valueString value="Paciente hipertenso, obeso, con problemas neurol&#xF3;gicos"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ANTEPV.ANTPSIM"/>
+      <text value="Antecedentes Previos Similares"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+          <code value="1"/>
+          <display value="S&#xED;"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ANTEPV.ANTOTV"/>
+      <text value="Antecedentes Reacci&#xF3;n Al&#xE9;rgica a Otras Vacunas"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+          <code value="1"/>
+          <display value="S&#xED;"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ANTEPV.ANTOME"/>
+      <text value="Antecedente Reacci&#xF3;n Al&#xE9;rgica a Otros Medicamentos"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+          <code value="2"/>
+          <display value="No"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ANTEPV.ANTMIV"/>
+      <text value="Antecedentes Reacci&#xF3;n Al&#xE9;rgica a Misma Vacuna"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+          <code value="1"/>
+          <display value="S&#xED;"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ANTEPV.INFCOV"/>
+      <text value="Antecedentes de Infecci&#xF3;n SARS COV2"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+          <code value="1"/>
+          <display value="S&#xED;"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ANTEPV.FESINT"/>
+      <text value="Fecha de Inicio de Sintomas"/>
+      <answer>
+        <valueDate value="2021-05-20"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ANTEPV.MODOCON"/>
+      <text value="Modo de Confirmaci&#xF3;n de Infecci&#xF3;n"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS"/>
+          <code value="1"/>
+          <display value="Solo por las manifestaciones cl&#xED;nicas"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ANTEPV.EXPLCO"/>
+      <text value="Explicaci&#xF3;n de Confirmaci&#xF3;n de Infecci&#xF3;n"/>
+      <answer>
+        <valueString value="Fiebre, nauseas, diarrea, anosmia"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ANTEPV.FECTOC"/>
+      <text value="Fecha de Toma de Muestra Confirmatoria"/>
+      <answer>
+        <valueDate value="2021-05-22"/>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="ENSAYO"/>
+    <text value="Participacion en Ensayo Clinico SARS COV2"/>
+    <item>
+      <linkId value="ENSAYO.PARTICIPO"/>
+      <text value="Particip&#xF3; de un Ensayo Cl&#xED;nico de Vacunas Contra SARS COV2"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+          <code value="1"/>
+          <display value="S&#xED;"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ENSAYO.MEDICAMENTO"/>
+      <text value="Medicamento"/>
+      <answer>
+        <valueString value="Johnson"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ENSAYO.PRESENTACION"/>
+      <text value="Presentacion"/>
+      <answer>
+        <valueString value="Monodosis"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ENSAYO.DOSIS"/>
+      <text value="Dosis"/>
+      <answer>
+        <valueString value="1"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ENSAYO.VIA_ADMINISTRACION"/>
+      <text value="Via de Administraci&#xF3;n"/>
+      <answer>
+        <valueString value="Inyectable"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ENSAYO.FECHA_INICIO"/>
+      <text value="Fecha de Inicio"/>
+      <answer>
+        <valueDate value="2021-03-20"/>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="EMBARAZO"/>
+    <text value="Detalles de Embarazo"/>
+    <item>
+      <linkId value="EMBARAZO.ESTADO"/>
+      <text value="Estado de Embarazo"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+          <code value="2"/>
+          <display value="No"/>
+        </valueCoding>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="VACUNACION"/>
+    <text value="Datos de la Administraci&#xF3;n de la Vacuna"/>
+    <item>
+      <linkId value="VACUNACION.INSTITUCION"/>
+      <text value="Instituci&#xF3;n de Salud donde se Vacun&#xF3;"/>
+      <answer>
+        <valueString value="CLINICA LOS CEDROS SUR"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.DIRECCION"/>
+      <text value="Direcci&#xF3;n del Lugar de Vacunaci&#xF3;n"/>
+      <answer>
+        <valueString value="Avenida Insurgentes 3302, Los Cedros, Mexico DF, Mexico"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.GENERICO"/>
+      <text value="Nombre Gen&#xE9;rico de la Vacuna"/>
+      <answer>
+        <valueString value="SINOPHARM"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.COMERCIAL"/>
+      <text value="Nombre Comercial de la Vacuna"/>
+      <answer>
+        <valueString value="SINOPHARM"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.FABRICANTE"/>
+      <text value="Fabricante de la Vacuna"/>
+      <answer>
+        <valueString value="SINOPHARM"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.FECHA"/>
+      <text value="Fecha de Vacunaci&#xF3;n"/>
+      <answer>
+        <valueDate value="2021-09-20"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.HORA"/>
+      <text value="Hora de Vacunaci&#xF3;n"/>
+      <answer>
+        <valueTime value="10:30:00"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.DOSIS"/>
+      <text value="Dosis de Vacuna"/>
+      <answer>
+        <valueString value="1"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.NROLOTE"/>
+      <text value="N&#xFA;mero de Lote"/>
+      <answer>
+        <valueString value="9393091209"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.FECHAVTO"/>
+      <text value="Fecha de Vencimiento"/>
+      <answer>
+        <valueString value="09/20/2022"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.DILUYENTE_NOMBRE"/>
+      <text value="Nombre del Diluyente"/>
+      <answer>
+        <valueString value="DILUPHARM"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.DILUYENTE_NROLOTE"/>
+      <text value="N&#xFA;mero de Lote del Diluyente"/>
+      <answer>
+        <valueString value="392039023"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.DILUYENTE_FECHAVTO"/>
+      <text value="Fecha de Vencimiento del Diluyente"/>
+      <answer>
+        <valueDate value="2022-09-20"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.RECONST_FECHA"/>
+      <text value="Fecha de Reconstituci&#xF3;n"/>
+      <answer>
+        <valueDate value="2021-09-20"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACUNACION.RECONST_HORA"/>
+      <text value="Hora de Reconstituci&#xF3;n"/>
+      <answer>
+        <valueTime value="07:00:00"/>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="VACPREVIA"/>
+    <text value="VacunacionPrevia"/>
+    <item>
+      <linkId value="VACPREVIA.INDICADOR"/>
+      <text value="Indicador Vacunaci&#xF3;n Previa"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+          <code value="1"/>
+          <display value="S&#xED;"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACPREVIA.VACUNA"/>
+      <text value="Vacuna Administrada Previamente"/>
+      <answer>
+        <valueString value="SINOPHARM"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="VACPREVIA.MODO_VERIFICACION"/>
+      <text value="Modo Verificaci&#xF3;n Vacuna Previa"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS"/>
+          <code value="1"/>
+          <display value="Carnet/Registro f&#xED;sico"/>
+        </valueCoding>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="ESAVI"/>
+    <text value="Evento Adverso"/>
+    <item>
+      <linkId value="ESAVI.TIPO"/>
+      <text value="Tipo de Evento Adverso"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS"/>
+          <code value="10"/>
+          <display value="Encefalitis"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ESAVI.FECHA"/>
+      <text value="Fecha Evento Adverso"/>
+      <answer>
+        <valueDate value="2021-10-03"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ESAVI.HORA"/>
+      <text value="Hora de Evento Adverso"/>
+      <answer>
+        <valueTime value="11:00:00"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ESAVI.CODIGO"/>
+      <text value="Codigo de Evento Adverso"/>
+      <answer>
+        <valueString value="G04.90"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="ESAVI.DESCRIPCION"/>
+      <text value="Descripci&#xF3;n del Evento Adverso"/>
+      <answer>
+        <valueString value="Encefalitis con complicaciones seguida de muerte"/>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="GRAVEDAD"/>
+    <text value="Gravedad del Evento Adverso"/>
+    <item>
+      <linkId value="GRAVEDAD.INDICADOR"/>
+      <text value="Evento Adverso Grave"/>
+      <answer>
+        <valueBoolean value="true"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="GRAVEDAD.MUERTE"/>
+      <text value="Gravedad del ESAVI: Muerte"/>
+      <answer>
+        <valueBoolean value="true"/>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="DESENLACE"/>
+    <text value="Desenlace"/>
+    <item>
+      <linkId value="DESENLACE.TIPO"/>
+      <text value="Desenlace del Evento Adverso"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS"/>
+          <code value="5"/>
+          <display value="Muerte"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="DESENLACE.FECHA_MUERTE"/>
+      <text value="Fecha de Muerte"/>
+      <answer>
+        <valueDate value="2021-10-05"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="DESENLACE.AUTOPSIA"/>
+      <text value="Se Realiz&#xF3; Autopsia"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"/>
+          <code value="1"/>
+          <display value="S&#xED;"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="DESENLACE_INVESTIGACION"/>
+      <text value="Se requiere investigaci&#xF3;n"/>
+      <answer>
+        <valueBoolean value="true"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="DESENLACE_INVESTIGACION_TIPO"/>
+      <text value="Tipo de Investigaci&#xF3;n"/>
+      <answer>
+        <valueCoding>
+          <system value="http://paho.org/esavi/CodeSystem/InvestigacionTipoCS"/>
+          <code value="2"/>
+          <display value="Completa"/>
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="DESENLACE_INVESTIGACION_FECHA"/>
+      <text value="Fecha Planeada de Investigaci&#xF3;n"/>
+      <answer>
+        <valueDate value="2021-10-10"/>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="CONCLUSIONES"/>
+    <text value="Conclusiones"/>
+    <item>
+      <linkId value="CONCLUSIONES.COMENTARIOS"/>
+      <text value="Comentarios Finales"/>
+      <answer>
+        <valueString value="Se requiere correlacionar los sintomas e historia"/>
+      </answer>
+    </item>
+    <item>
+      <linkId value="CONCLUSIONES.FECHA_RECEPCION"/>
+      <text value="Fecha Recepci&#xF3;n Nivel Nacional"/>
+      <answer>
+        <valueDate value="2021-05-10"/>
+      </answer>
+    </item>
+  </item>
+</QuestionnaireResponse>

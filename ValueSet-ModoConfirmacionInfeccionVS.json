@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ModoConfirmacionInfeccionVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-ModoConfirmacionInfeccionCS.html\"><code>http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS</code></a></li></ul></div>"
+  },
+  "url": "http://paho.org/esavi/ValueSet/ModoConfirmacionInfeccionVS",
+  "version": "0.5.0",
+  "name": "ModoConfirmacionInfeccionVS",
+  "title": "Modos de Confirmacion de Infeccion",
+  "status": "active",
+  "date": "2021-10-03T10:17:18-03:00",
+  "publisher": "PAHO",
+  "contact": [
+    {
+      "name": "PAHO",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system": "email",
+          "value": "privadadngiss@msal.gov.ar"
+        }
+      ]
+    }
+  ],
+  "description": "Modos de Confirmacion de Infeccion",
+  "compose": {
+    "include": [
+      {
+        "system": "http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS"
+      }
+    ]
+  }
+}

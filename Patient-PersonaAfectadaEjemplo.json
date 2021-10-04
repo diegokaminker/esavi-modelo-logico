@@ -1,0 +1,21 @@
+{
+  "resourceType": "Patient",
+  "id": "PersonaAfectadaEjemplo",
+  "meta": {
+    "profile": [
+      "http://paho.org/esavi/StructureDefinition/Patient-esavi"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Alberto Afectado </p></div>"
+  },
+  "name": [
+    {
+      "family": "Afectado",
+      "given": [
+        "Alberto"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/Composition/NotificacionESAVIEjemplo> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "NotificacionESAVIEjemplo"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://paho.org/esavi/StructureDefinition/Composition-esavi";
+       fhir:index 0;
+       fhir:link <http://paho.org/esavi/StructureDefinition/Composition-esavi>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: AR-4444-9b0e-1adc-007a-4f5cecb8ce6a</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 85893-6}\">Adverse event note</span></p><p><b>date</b>: Dec 10, 2021, 7:18:00 PM</p><p><b>author</b>: <a href=\"Practitioner-PersonaNotificadoraEjemplo.html\">Generated Summary: María Notificadora </a></p><p><b>title</b>: Notificación ESAVI</p></div>"
+  ];
+  fhir:Composition.identifier [
+     fhir:Identifier.system [ fhir:value "http://paho.esavi.org/reportes" ];
+     fhir:Identifier.value [ fhir:value "AR-4444-9b0e-1adc-007a-4f5cecb8ce6a" ]
+  ];
+  fhir:Composition.status [ fhir:value "final"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:85893-6;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "85893-6" ];
+       fhir:Coding.display [ fhir:value "Adverse event note" ]
+     ]
+  ];
+  fhir:Composition.subject [
+     fhir:Reference.reference [ fhir:value "PersonaVacunadaEjemplo" ]
+  ];
+  fhir:Composition.date [ fhir:value "2021-12-10T17:18:00-05:00"^^xsd:dateTime];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <http://covid-19pharmacovigilance.paho.org/resources/Practitioner/PersonaNotificadoraEjemplo>;
+     fhir:Reference.reference [ fhir:value "Practitioner/PersonaNotificadoraEjemplo" ]
+  ];
+  fhir:Composition.title [ fhir:value "Notificación ESAVI"];
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Antecedentes de la Persona Vacunada" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS" ];
+         fhir:Coding.code [ fhir:value "s_AntecedentesPersonaVacunada" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "generated" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hola</div>"
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://covid-19pharmacovigilance.paho.org/resources/QuestionnaireResponse/RespuestaAntecedentesEjemplo>;
+       fhir:Reference.reference [ fhir:value "QuestionnaireResponse/RespuestaAntecedentesEjemplo" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Composition.section.title [ fhir:value "Participacion en Ensayo Clinico" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS" ];
+         fhir:Coding.code [ fhir:value "s_ParticipacionEnsayoClinico" ]
+       ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Composition.section.title [ fhir:value "Detalles Embarazo" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS" ];
+         fhir:Coding.code [ fhir:value "s_DetallesEmbarazo" ]
+       ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Composition.section.title [ fhir:value "Administración de Vacuna" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS" ];
+         fhir:Coding.code [ fhir:value "s_AdministracionVacuna" ]
+       ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Composition.section.title [ fhir:value "Vacunación Previa" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS" ];
+         fhir:Coding.code [ fhir:value "s_VacunacionPrevia" ]
+       ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Composition.section.title [ fhir:value "Evento Adverso" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS" ];
+         fhir:Coding.code [ fhir:value "s_EventoAdverso" ]
+       ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:Composition.section.title [ fhir:value "Gravedad del Evento Adverso" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS" ];
+         fhir:Coding.code [ fhir:value "s_GravedadEventoAdverso" ]
+       ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:Composition.section.title [ fhir:value "Desenlace del Evento Adverso" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS" ];
+         fhir:Coding.code [ fhir:value "s_Desenlace" ]
+       ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:Composition.section.title [ fhir:value "Conclusiones" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS" ];
+         fhir:Coding.code [ fhir:value "s_Conclusiones" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/Composition/NotificacionESAVIEjemplo.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="InvestigacionTipoVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-InvestigacionTipoCS.html"><code>http://paho.org/esavi/CodeSystem/InvestigacionTipoCS</code></a></li></ul></div>
+  </text>
+  <url value="http://paho.org/esavi/ValueSet/InvestigacionTipoVS"/>
+  <version value="0.5.0"/>
+  <name value="InvestigacionTipoVS"/>
+  <title value="Tipo de Investigaci&#xF3;n"/>
+  <status value="active"/>
+  <date value="2021-10-03T10:17:18-03:00"/>
+  <publisher value="PAHO"/>
+  <contact>
+    <name value="PAHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://covid-19pharmacovigilance.paho.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="privadadngiss@msal.gov.ar"/>
+    </telecom>
+  </contact>
+  <description value="Tipo de Investigaci&#xF3;n"/>
+  <compose>
+    <include>
+      <system value="http://paho.org/esavi/CodeSystem/InvestigacionTipoCS"/>
+    </include>
+  </compose>
+</ValueSet>

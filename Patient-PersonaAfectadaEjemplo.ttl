@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/Patient/PersonaAfectadaEjemplo> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "PersonaAfectadaEjemplo"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://paho.org/esavi/StructureDefinition/Patient-esavi";
+       fhir:index 0;
+       fhir:link <http://paho.org/esavi/StructureDefinition/Patient-esavi>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Alberto Afectado </p></div>"
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Afectado" ];
+     fhir:HumanName.given [
+       fhir:value "Alberto";
+       fhir:index 0
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/Patient/PersonaAfectadaEjemplo.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

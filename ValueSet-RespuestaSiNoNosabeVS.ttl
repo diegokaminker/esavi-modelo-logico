@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/ValueSet/RespuestaSiNoNosabeVS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "RespuestaSiNoNosabeVS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-RespuestaSiNoNosabeCS.html\"><code>http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS"];
+  fhir:ValueSet.version [ fhir:value "0.5.0"];
+  fhir:ValueSet.name [ fhir:value "RespuestaSiNoNosabeVS"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-10-03T10:17:18-03:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "PAHO"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "PAHO" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://covid-19pharmacovigilance.paho.org" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "privadadngiss@msal.gov.ar" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Para capturar respuestas simples si/no/no sabe"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/ValueSet/RespuestaSiNoNosabeVS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

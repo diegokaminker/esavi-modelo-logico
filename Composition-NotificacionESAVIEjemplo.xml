@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="NotificacionESAVIEjemplo"/>
+  <meta>
+    <profile value="http://paho.org/esavi/StructureDefinition/Composition-esavi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: AR-4444-9b0e-1adc-007a-4f5cecb8ce6a</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 85893-6}">Adverse event note</span></p><p><b>date</b>: Dec 10, 2021, 7:18:00 PM</p><p><b>author</b>: <a href="Practitioner-PersonaNotificadoraEjemplo.html">Generated Summary: María Notificadora </a></p><p><b>title</b>: Notificación ESAVI</p></div>
+  </text>
+  <identifier>
+    <system value="http://paho.esavi.org/reportes"/>
+    <value value="AR-4444-9b0e-1adc-007a-4f5cecb8ce6a"/>
+  </identifier>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="85893-6"/>
+      <display value="Adverse event note"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="PersonaVacunadaEjemplo"/>
+  </subject>
+  <date value="2021-12-10T17:18:00-05:00"/>
+  <author>
+    <reference value="Practitioner/PersonaNotificadoraEjemplo"/>
+  </author>
+  <title value="Notificaci&#xF3;n ESAVI"/>
+  <section>
+    <title value="Antecedentes de la Persona Vacunada"/>
+    <code>
+      <coding>
+        <system value="http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS"/>
+        <code value="s_AntecedentesPersonaVacunada"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Hola</div>
+    </text>
+    <entry>
+      <reference value="QuestionnaireResponse/RespuestaAntecedentesEjemplo"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Participacion en Ensayo Clinico"/>
+    <code>
+      <coding>
+        <system value="http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS"/>
+        <code value="s_ParticipacionEnsayoClinico"/>
+      </coding>
+    </code>
+  </section>
+  <section>
+    <title value="Detalles Embarazo"/>
+    <code>
+      <coding>
+        <system value="http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS"/>
+        <code value="s_DetallesEmbarazo"/>
+      </coding>
+    </code>
+  </section>
+  <section>
+    <title value="Administraci&#xF3;n de Vacuna"/>
+    <code>
+      <coding>
+        <system value="http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS"/>
+        <code value="s_AdministracionVacuna"/>
+      </coding>
+    </code>
+  </section>
+  <section>
+    <title value="Vacunaci&#xF3;n Previa"/>
+    <code>
+      <coding>
+        <system value="http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS"/>
+        <code value="s_VacunacionPrevia"/>
+      </coding>
+    </code>
+  </section>
+  <section>
+    <title value="Evento Adverso"/>
+    <code>
+      <coding>
+        <system value="http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS"/>
+        <code value="s_EventoAdverso"/>
+      </coding>
+    </code>
+  </section>
+  <section>
+    <title value="Gravedad del Evento Adverso"/>
+    <code>
+      <coding>
+        <system value="http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS"/>
+        <code value="s_GravedadEventoAdverso"/>
+      </coding>
+    </code>
+  </section>
+  <section>
+    <title value="Desenlace del Evento Adverso"/>
+    <code>
+      <coding>
+        <system value="http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS"/>
+        <code value="s_Desenlace"/>
+      </coding>
+    </code>
+  </section>
+  <section>
+    <title value="Conclusiones"/>
+    <code>
+      <coding>
+        <system value="http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS"/>
+        <code value="s_Conclusiones"/>
+      </coding>
+    </code>
+  </section>
+</Composition>

@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="uv.aefi"/>
+  <language value="es-AR"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-AR" lang="es-AR"><h2>AEFI</h2><p>The official URL for this implementation guide is: </p><pre>http://covid-19pharmacovigilance.paho.org/resources/ImplementationGuide/uv.aefi</pre></div>
+  </text>
+  <url value="http://covid-19pharmacovigilance.paho.org/resources/ImplementationGuide/uv.aefi"/>
+  <version value="0.5.0"/>
+  <name value="AEFI"/>
+  <status value="draft"/>
+  <date value="2021-10-03T10:17:18-03:00"/>
+  <publisher value="PAHO"/>
+  <contact>
+    <name value="PAHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://covid-19pharmacovigilance.paho.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="privadadngiss@msal.gov.ar"/>
+    </telecom>
+  </contact>
+  <packageId value="uv.aefi"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2021+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://covid-19pharmacovigilance.paho.org/resources/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/GrupoEtnicoCS"/>
+      </reference>
+      <name value="Conjunto de Valores para Grupo Etnico"/>
+      <description value="Conjunto de Valores para Grupo Etnico"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ModoVerificacionVacunaCS"/>
+      </reference>
+      <name value="Modo de Verificacion de Vacuna"/>
+      <description value="Modo de Verificacion de Vacuna"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/EventoAdversoVacunaCS"/>
+      </reference>
+      <name value="Tipo de Evento Adverso de Vacuna"/>
+      <description value="Tipo de Evento de Adverso de Vacuna"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ClasificacionDesenlaceCS"/>
+      </reference>
+      <name value="Codigo de Clasificacion de Desenlace"/>
+      <description value="Codigo de Clasificacion de Desenlace"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/InvestigacionTipoCS"/>
+      </reference>
+      <name value="Tipo de Investigaci&#xF3;n Requerida"/>
+      <description value="Tipo de Investigaci&#xF3;n Requerida"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ModoVerificacionVacunaVS"/>
+      </reference>
+      <name value="Conjunto de Valores para Modo de Verificacion de Vacuna"/>
+      <description value="Conjunto de Valores para Modo de Verificacion de Vacuna"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ModoConfirmacionInfeccionCS"/>
+      </reference>
+      <name value="C&#xF3;digos para Modo de Confirmaci&#xF3;n de Infecci&#xF3;n"/>
+      <description value="C&#xF3;digos para Modo de Confirmaci&#xF3;n de Infecci&#xF3;n"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/EventoAdversoVacunaVS"/>
+      </reference>
+      <name value="Conjunto de Valores para Tipo de Evento Adverso"/>
+      <description value="Conjunto de Valores para Tipo de Evento Adverso"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/EventoAdversoCodificacionVS"/>
+      </reference>
+      <name value="Conjunto de Valores para Codificacion Estandarizada de Evento Adverso"/>
+      <description value="Conjunto de Valores para Codificacion Estandarizada de Evento Adverso"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ClasificacionDesenlaceVS"/>
+      </reference>
+      <name value="Conjunto de Valores para Clasificacion de Desenlace"/>
+      <description value="Conjunto de Valores para Clasificacion de Desenlace"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/InvestigacionTipoVS"/>
+      </reference>
+      <name value="Conjunto de Valores para Tipo de Investigaci&#xF3;n"/>
+      <description value="Conjunto de Valores para Tipo de Investigaci&#xF3;n"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/RespuestaVerdaderoFalsoCS"/>
+      </reference>
+      <name value="Conjunto de Valores Verdadero/Falso para Cuestionarios"/>
+      <description value="Conjunto de Valores Verdadero/Falso para Cuestionarios"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/RespuestaSiNoNosabeCS"/>
+      </reference>
+      <name value="Conjunto de Valores Si / No / No Sabe para Cuestionarios"/>
+      <description value="Conjunto de Valores Si / No / No Sabe para Cuestionarios"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/RespuestaSiNoNosabeVS"/>
+      </reference>
+      <name value="Conjunto de Valores Si / No / No Sabe para Cuestionarios"/>
+      <description value="Conjunto de Valores Si / No / No Sabe para Cuestionarios"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/GrupoEtnicoVS"/>
+      </reference>
+      <name value="Conjunto de Valores Validos para Grupo Etnico"/>
+      <description value="Conjunto de Valores Validos para Grupo Etnico"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/RespuestaVerdaderoFalsoVS"/>
+      </reference>
+      <name value="Conjunto de Valores Validos para Verdadero/Falso"/>
+      <description value="Conjunto de Valores Validos para Verdadero/Falso"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ModoConfirmacionInfeccionVS"/>
+      </reference>
+      <name value="Conjunto de Valores Validos para Modo Confirmacion de Infeccion"/>
+      <description value="Conjunto de Valores Validos para Modo Confirmacion de Infeccion"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/esavi-response-antecedentes"/>
+      </reference>
+      <name value="Antecedentes Persona Vacunada"/>
+      <description value="Perfil de Persona Vacunada"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Practitioner-esavi"/>
+      </reference>
+      <name value="Persona Notificadora"/>
+      <description value="Perfil de Persona Notificadora"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Patient-esavi"/>
+      </reference>
+      <name value="Paciente AEFI"/>
+      <description value="Perfil de Paciente AEFI"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Composition-esavi"/>
+      </reference>
+      <name value="Documento para Notificaci&#xF3;n ESAVI"/>
+      <description value="Perfil de Documento para Notificaci&#xF3;n ESAVI"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NotificacionESAVI"/>
+      </reference>
+      <name value="Modelo Logico de Notificacion ESAVI"/>
+      <description value="Modelo Logico de Notificacion ESAVI"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/NotificacionESAVIEjemplo"/>
+      </reference>
+      <name value="Ejemplo de Reporte de Notificaci&#xF3;n ESAVI"/>
+      <description value="Ejemplo de Reporte de Notificaci&#xF3;n ESAVI"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PersonaAfectadaEjemplo"/>
+      </reference>
+      <name value="Ejemplo de Persona Afectada ESAVI"/>
+      <description value="Ejemplo de Persona Afectada ESAVI"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/PersonaNotificadoraEjemplo"/>
+      </reference>
+      <name value="Ejemplo de Persona Notificadora ESAVI"/>
+      <description value="Ejemplo de Persona Notificadora ESAVI"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/RespuestaAntecedentesEjemplo"/>
+      </reference>
+      <name value="Ejemplo de Respuestas a Seccion de Antecedentes de Persona Vacunada"/>
+      <description value="Ejemplo de Respuestas a Seccion de Antecedentes de Persona Vacunada"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/EsaviCuestionarioCompleto"/>
+      </reference>
+      <name value="Ejemplo de Definicion de Cuestionario ESAVI"/>
+      <description value="Ejemplo de Definicion de Cuestionario ESAVI"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/EsaviRespuestaCompleta"/>
+      </reference>
+      <name value="Ejemplo de Respuesta Completa a Cuestionario"/>
+      <description value="Ejemplo de Respuesta Completa a Cuestionario"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="objetivos.html"/>
+        <title value="Objetivos"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="actores.html"/>
+        <title value="Actores"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="informe_aefi.html"/>
+        <title value="Informe AEFI"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="recomendaciones.html"/>
+        <title value="Recomendaciones"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="descargas.html"/>
+        <title value="Descargas"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="operaciones.html"/>
+        <title value="Operaciones"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="sandbox.html"/>
+        <title value="Sandbox"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="seguridad.html"/>
+        <title value="Seguridad"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="terminologia.html"/>
+        <title value="Terminologia"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

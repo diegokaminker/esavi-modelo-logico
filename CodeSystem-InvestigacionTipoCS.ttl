@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/CodeSystem/InvestigacionTipoCS> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "InvestigacionTipoCS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://paho.org/esavi/CodeSystem/InvestigacionTipoCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"InvestigacionTipoCS-1\"> </a></td><td>Concisa</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"InvestigacionTipoCS-2\"> </a></td><td>Completa</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://paho.org/esavi/CodeSystem/InvestigacionTipoCS"];
+  fhir:CodeSystem.version [ fhir:value "0.5.0"];
+  fhir:CodeSystem.name [ fhir:value "InvestigacionTipoCS"];
+  fhir:CodeSystem.title [ fhir:value "Tipo de Investigación"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-10-03T10:17:18-03:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "PAHO"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "PAHO" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://covid-19pharmacovigilance.paho.org" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "privadadngiss@msal.gov.ar" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Tipo de Investigación"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Concisa" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Completa" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://covid-19pharmacovigilance.paho.org/resources/CodeSystem/InvestigacionTipoCS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

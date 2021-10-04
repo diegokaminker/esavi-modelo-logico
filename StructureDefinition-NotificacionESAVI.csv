@@ -1,0 +1,184 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"NotificacionESAVI","","","",0,*,"","","","","Notificación ESAVI","Modelo Lógico de Notificación","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Datos de identificación de la persona vacunada o afectada","Datos de identificación de la persona vacunada o afectada","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada",1,1,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.NumeroIdentificacionCaso","","","",1,1,"","","Y","Identifier {[]} {[]}
+","Número de identificación del caso","Número de identificación del caso","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.NumeroIdentificacionCaso",1,1,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.NombresApellidos","","","",1,1,"","","Y","HumanName {[]} {[]}
+","Nombres y Apellidos","Nombres y Apellidos","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.NombresApellidos",1,1,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.NumeroIdentificacionNacional","","","",1,1,"","","Y","Identifier {[]} {[]}
+","Número de identificación nacional","Número de identificación nacional","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.NumeroIdentificacionNacional",1,1,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.DireccionCompleta","","","",1,1,"","","","Address {[]} {[]}
+","Dirección completa","Dirección completa","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.DireccionCompleta",1,1,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.NivelGeograficoSubnacional","","","",1,1,"","","","Identifier {[]} {[]}
+","Nivel Geográfico Subnacional","Nivel Geográfico Subnacional","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.NivelGeograficoSubnacional",1,1,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.TelefonoCorreoElectronico","","","",0,2,"","","Y","ContactPoint {[]} {[]}
+","Teléfono y correo electrónico","Teléfono y correo electrónico","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.TelefonoCorreoElectronico",0,2,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.Sexo","","","",1,1,"","","Y","code {[]} {[]}
+","Genero","Genero","","","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/administrative-gender","",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.Sexo",1,1,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.FechaNacimiento","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha de Nacimiento","Fecha de Nacimiento","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.FechaNacimiento",1,1,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.EdadInicioEvento","","","",1,1,"","","Y","Age {[]} {[]}
+","Edad al Inicio del Evento","Edad al Inicio del Evento","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.EdadInicioEvento",1,1,"",""
+"NotificacionESAVI.s_IdentificacionPersonaAfectada.GrupoEtnico","","","",1,1,"","","Y","Coding {[]} {[]}
+","Grupo Etnico","Grupo Etnico","","","","","","","","","",,"preferred","","http://paho.org/esavi/ValueSet/GrupoEtnicoVS","",,,,"NotificacionESAVI.s_IdentificacionPersonaAfectada.GrupoEtnico",1,1,"",""
+"NotificacionESAVI.s_PersonaNotificadora","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Datos de la Persona Notificadora","Datos de la Persona Notificadora","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_PersonaNotificadora",1,1,"",""
+"NotificacionESAVI.s_PersonaNotificadora.NombresApellidosNotificador","","","",1,1,"","","Y","HumanName {[]} {[]}
+","Nombre y Apellidos Notificador","Nombre y Apellidos Notificador","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_PersonaNotificadora.NombresApellidosNotificador",1,1,"",""
+"NotificacionESAVI.s_PersonaNotificadora.ProfesionNotificador","","","",1,1,"","","Y","string {[]} {[]}
+","Profesion del Notificador","Profesion del Notificador","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_PersonaNotificadora.ProfesionNotificador",1,1,"",""
+"NotificacionESAVI.s_PersonaNotificadora.InstitucionCargo","","","",1,1,"","","Y","string {[]} {[]}
+","Institucion y Cargo","Institucion y Cargo","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_PersonaNotificadora.InstitucionCargo",1,1,"",""
+"NotificacionESAVI.s_PersonaNotificadora.DireccionCompletaNotificador","","","",1,1,"","","Y","string {[]} {[]}
+","Direccion Completa del Notificador","Direccion Completa del Notificador","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_PersonaNotificadora.DireccionCompletaNotificador",1,1,"",""
+"NotificacionESAVI.s_PersonaNotificadora.NivelGeograficoSubnacionalNotificador","","","",1,1,"","","Y","string {[]} {[]}
+","Nivel Geografico Nacional Notificador","Nivel Geografico Nacional Notificador","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_PersonaNotificadora.NivelGeograficoSubnacionalNotificador",1,1,"",""
+"NotificacionESAVI.s_PersonaNotificadora.TelefonoCorreoElectronicoNotificador","","","",1,2,"","","Y","string {[]} {[]}
+","Telefono y Correo Electronico Notificador","Telefono y Correo Electronico Notificador","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_PersonaNotificadora.TelefonoCorreoElectronicoNotificador",1,2,"",""
+"NotificacionESAVI.s_PersonaNotificadora.FechaConsulta","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha de Consulta","Fecha de Consulta","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_PersonaNotificadora.FechaConsulta",1,1,"",""
+"NotificacionESAVI.s_PersonaNotificadora.FechaLlenadoFicha","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha de Llenado de la Ficha","Fecha de Llenado de la Ficha","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_PersonaNotificadora.FechaLlenadoFicha",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Antecedentes de la Persona Vacunada","Antecedentes de la Persona Vacunada","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesMedicos","","","",1,1,"","","Y","string {[]} {[]}
+","Antecedentes Médicos","Antecedentes Médicos","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesMedicos",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesPreviosSimilares","","","",1,1,"","","Y","Coding {[]} {[]}
+","Antecedentes Previos Similares","Antecedentes Previos Similares","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesPreviosSimilares",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesReaccionesAlergicasOtrasVacunas","","","",1,1,"","","Y","Coding {[]} {[]}
+","Reacciones Alergicas a Otras Vacunas","Reacciones Alergicas a Otras Vacunas","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesReaccionesAlergicasOtrasVacunas",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesReaccionesAlergicasMedicamentos","","","",1,1,"","","Y","Coding {[]} {[]}
+","¿Tiene antecedentes de reacciones alérgicas a medicamentos?","¿Tiene antecedentes de reacciones alérgicas a medicamentos?","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesReaccionesAlergicasMedicamentos",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesReaccionesAlergicasMismaVacuna","","","",1,1,"","","Y","Coding {[]} {[]}
+","¿Tiene antecedentes de reacciones alérgicas a dosis previas de la misma vacuna?","¿Tiene antecedentes de reacciones alérgicas a dosis previas de la misma vacuna?","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedentesReaccionesAlergicasMismaVacuna",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedenteSARSCov2","","","",1,1,"","","Y","Coding {[]} {[]}
+","¿Tiene antecedente de diagnóstico de infección por SARS-CoV-2 antes de la vacunación?","¿Tiene antecedente de diagnóstico de infección por SARS-CoV-2 antes de la vacunación?","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.AntecedenteSARSCov2",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.Asintomatica","","","",1,1,"","","Y","Coding {[]} {[]}
+","Asintomática","Asintomática","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.Asintomatica",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.FechaInicioSintomas","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha de Inicio de los Sintomas","Fecha de Inicio de los Sintomas","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.FechaInicioSintomas",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.ConfirmacionInfeccion","","","",1,1,"","","Y","Coding {[]} {[]}
+","¿Cómo se confirmó el diagnóstico de la infección?","¿Cómo se confirmó el diagnóstico de la infección?","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/ModoConfirmacionInfeccionVS","",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.ConfirmacionInfeccion",1,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.ExplicacionConfirmacion","","","",0,1,"","","Y","string {[]} {[]}
+","Explique la confirmación del diagnóstico","Explique la confirmación del diagnóstico","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.ExplicacionConfirmacion",0,1,"",""
+"NotificacionESAVI.s_AntecedentesPersonaVacunada.FechaTomaMuestraConfirmatoria","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha de toma de la muestra para la prueba confirmatoria","Fecha de toma de la muestra para la prueba confirmatoria","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AntecedentesPersonaVacunada.FechaTomaMuestraConfirmatoria",1,1,"",""
+"NotificacionESAVI.s_ParticipacionEnsayoClinico","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Datos de Ensayo Clinico","Datos de Ensayo Clinico","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_ParticipacionEnsayoClinico",1,1,"",""
+"NotificacionESAVI.s_ParticipacionEnsayoClinico.ParticipacionEnsayoClinicoSARS","","","",1,1,"","","Y","Coding {[]} {[]}
+","Participación en un ensayo clínico de vacunas contra SARS-CoV-2","Participación en un ensayo clínico de vacunas contra SARS-CoV-2","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_ParticipacionEnsayoClinico.ParticipacionEnsayoClinicoSARS",1,1,"",""
+"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo","","","",0,1,"","","Y","BackboneElement {[]} {[]}
+","Medicamento","Medicamento","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo",0,1,"",""
+"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoNombre","","","",0,1,"","","Y","string {[]} {[]}
+","Nombre del Medicamento","Nombre del Medicamento","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoNombre",0,1,"",""
+"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoPresentacion","","","",0,1,"","","Y","string {[]} {[]}
+","Presentacion del Medicamento","Presentacion del Medicamento","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoPresentacion",0,1,"",""
+"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoDosis","","","",0,1,"","","Y","string {[]} {[]}
+","Dosis del Medicamento","Dosis del Medicamento","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoDosis",0,1,"",""
+"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoViaAdministracion","","","",0,1,"","","Y","string {[]} {[]}
+","Via de Administracion del Medicamento","Via de Administracion del Medicamento","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoViaAdministracion",0,1,"",""
+"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoFechaInicio","","","",0,1,"","","Y","dateTime {[]} {[]}
+","Fecha de Inicio del Medicamento","Fecha de Inicio del Medicamento","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_ParticipacionEnsayoClinico.MedicamentoEnsayo.MedicamentoEnsayoFechaInicio",0,1,"",""
+"NotificacionESAVI.s_DetallesEmbarazo","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Datos Relevantes a Embarazo","Datos Relevantes a Embarazo","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_DetallesEmbarazo",1,1,"",""
+"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoEstado","","","",1,1,"","","Y","Coding {[]} {[]}
+","Estado de Embarazo","Estado de Embarazo","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoEstado",1,1,"",""
+"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoEdadGestacional","","","",0,1,"","","Y","integer {[]} {[]}
+","Edad gestacional (semanas)","Edad gestacional (semanas)","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoEdadGestacional",0,1,"",""
+"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoFechaProbableParto","","","",0,1,"","","Y","string {[]} {[]}
+","Fecha probable de parto","Fecha probable de parto","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoFechaProbableParto",0,1,"",""
+"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoComplicaciones","","","",0,1,"","","Y","Coding {[]} {[]}
+","Complicaciones del embarazo","Complicaciones del embarazo","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoComplicaciones",0,1,"",""
+"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoComplicacionesDiagnostico","","","",0,1,"","","Y","string {[]} {[]}
+","Diagnóstico de Complicaciones del embarazo","Diagnóstico de Complicaciones del embarazo","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoComplicacionesDiagnostico",0,1,"",""
+"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoComplicacionesDescripcion","","","",0,1,"","","Y","string {[]} {[]}
+","Descripción de Complicaciones del embarazo","Descripción de Complicaciones del embarazo","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoComplicacionesDescripcion",0,1,"",""
+"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoMonitoreo","","","",0,1,"","","Y","Coding {[]} {[]}
+","Inicio de monitoreo de la vacunación durante el embarazo por una entidad de salud","Inicio de monitoreo de la vacunación durante el embarazo por una entidad de salud","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_DetallesEmbarazo.EmbarazoMonitoreo",0,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Datos Administración de Vacuna","Datos Administración de Vacuna","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna",1,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionInstitucionSalud","","","",1,1,"","","Y","string {[]} {[]}
+","Institución de salud en donde se vacunó","Institución de salud en donde se vacunó","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionInstitucionSalud",1,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionInstitucionDireccion","","","",1,1,"","","Y","string {[]} {[]}
+","Dirección del lugar de vacunación","Dirección del lugar de vacunación","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionInstitucionDireccion",1,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionNombreGenericoVacuna","","","",1,1,"","","Y","string {[]} {[]}
+","Nombre genérico de la vacuna","Nombre genérico de la vacuna","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionNombreGenericoVacuna",1,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionNombreComercialVacuna","","","",1,1,"","","Y","string {[]} {[]}
+","Nombre comercial / Fabricante de la vacuna","Nombre comercial / Fabricante de la vacuna","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionNombreComercialVacuna",1,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionFechaHora","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha y Hora de vacunación","Fecha y Hora de vacunación","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionFechaHora",1,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionDosis","","","",1,1,"","","Y","string {[]} {[]}
+","Dosis","Dosis","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionDosis",1,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionNumeroLote","","","",1,1,"","","Y","string {[]} {[]}
+","Número de lote","Número de lote","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionNumeroLote",1,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionFechaVencimientoLote","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha de vencimiento del Lote","Fecha de vencimiento del Lote","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionFechaVencimientoLote",1,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionNombreDiluyente","","","",0,1,"","","Y","string {[]} {[]}
+","Nombre del diluyente","Nombre del diluyente","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionNombreDiluyente",0,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionNumeroLoteDiluyente","","","",0,1,"","","Y","string {[]} {[]}
+","Número de lote del diluyente","Número de lote del diluyente","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionNumeroLoteDiluyente",0,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionFechaVencimientoDiluyente","","","",0,1,"","","Y","dateTime {[]} {[]}
+","Fecha de vencimiento del diluyente","Fecha de vencimiento del diluyente","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionFechaVencimientoDiluyente",0,1,"",""
+"NotificacionESAVI.s_AdministracionVacuna.VacunacionFechaHoraReconstitucion","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha y Hora de reconstitución","Fecha y Hora de reconstitución","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_AdministracionVacuna.VacunacionFechaHoraReconstitucion",1,1,"",""
+"NotificacionESAVI.s_VacunacionPrevia","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Datos Administración de Vacuna","Datos Administración de Vacuna","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_VacunacionPrevia",1,1,"",""
+"NotificacionESAVI.s_VacunacionPrevia.VacunacionPrevia","","","",1,1,"","","Y","Coding {[]} {[]}
+","Otra vacuna administrada en los 30 días anteriores al inicio del ESAVI","Otra vacuna administrada en los 30 días anteriores al inicio del ESAVI","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_VacunacionPrevia.VacunacionPrevia",1,1,"",""
+"NotificacionESAVI.s_VacunacionPrevia.VacunacionPreviaVacuna","","","",0,1,"","","Y","string {[]} {[]}
+","¿Cuál vacuna se administró previamente?","¿Cuál vacuna se administró previamente?","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_VacunacionPrevia.VacunacionPreviaVacuna",0,1,"",""
+"NotificacionESAVI.s_VacunacionPrevia.VacunacionPreviaVerificacion","","","",0,1,"","","Y","Coding {[]} {[]}
+","Verificación de la vacunación","Verificación de la vacunación","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/ModoVerificacionVacunaVS","",,,,"NotificacionESAVI.s_VacunacionPrevia.VacunacionPreviaVerificacion",0,1,"",""
+"NotificacionESAVI.s_VacunacionPrevia.VacunacionPreviaVerificacionExplicacion","","","",0,1,"","","Y","string {[]} {[]}
+","Explicación de método de verificación de la vacunación","Explicación de método de verificación de la vacunación","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_VacunacionPrevia.VacunacionPreviaVerificacionExplicacion",0,1,"",""
+"NotificacionESAVI.s_EventoAdverso","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Datos del Evento Adverso","Datos del Evento Adverso","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_EventoAdverso",1,1,"",""
+"NotificacionESAVI.s_EventoAdverso.EsaviTipo","","","",1,1,"","","Y","Coding {[]} {[]}
+","Tipo del Evento Adverso","Tipo del Evento Adverso","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/EventoAdversoVacunaVS","",,,,"NotificacionESAVI.s_EventoAdverso.EsaviTipo",1,1,"",""
+"NotificacionESAVI.s_EventoAdverso.EsaviFechaHora","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha/hora de inicio del ESAVI","Fecha/hora de inicio del ESAVI","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_EventoAdverso.EsaviFechaHora",1,1,"",""
+"NotificacionESAVI.s_EventoAdverso.EsaviCodificacion","","","",1,1,"","","Y","Coding {[]} {[]}
+","Código MedDRA/CIE del ESAVI","Código MedDRA/CIE del ESAVI","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/EventoAdversoCodificacionVS","",,,,"NotificacionESAVI.s_EventoAdverso.EsaviCodificacion",1,1,"",""
+"NotificacionESAVI.s_EventoAdverso.EsaviDescripcion","","","",1,1,"","","Y","string {[]} {[]}
+","Descripción del ESAVI","Descripción del ESAVI","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_EventoAdverso.EsaviDescripcion",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Gravedad del Evento Adverso","Gravedad del Evento Adverso","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_GravedadEventoAdverso",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso.GravedadIndicador","","","",1,1,"","","Y","Coding {[]} {[]}
+","¿Fue un evento adverso grave?","¿Fue un evento adverso grave?","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS","",,,,"NotificacionESAVI.s_GravedadEventoAdverso.GravedadIndicador",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso.GravedadMuerte","","","",1,1,"","","Y","Coding {[]} {[]}
+","Gravedad del ESAVI - Muerte","Gravedad del ESAVI - Muerte","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS","",,,,"NotificacionESAVI.s_GravedadEventoAdverso.GravedadMuerte",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso.GravedadAmenazaVida","","","",1,1,"","","Y","Coding {[]} {[]}
+","Gravedad del ESAVI - Amenaza a la Vida","Gravedad del ESAVI - Amenaza a la Vida","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS","",,,,"NotificacionESAVI.s_GravedadEventoAdverso.GravedadAmenazaVida",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso.GravedadDiscapacidad","","","",1,1,"","","Y","Coding {[]} {[]}
+","Gravedad del ESAVI - Discapacidad Significativa o Persistente","Gravedad del ESAVI - Discapacidad Significativa o Persistente","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS","",,,,"NotificacionESAVI.s_GravedadEventoAdverso.GravedadDiscapacidad",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso.GravedadHospitalizacion","","","",1,1,"","","Y","Coding {[]} {[]}
+","Gravedad del ESAVI - Hospitalización","Gravedad del ESAVI - Hospitalización","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS","",,,,"NotificacionESAVI.s_GravedadEventoAdverso.GravedadHospitalizacion",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso.GravedadAnomaliaCongenita","","","",1,1,"","","Y","Coding {[]} {[]}
+","Gravedad del ESAVI - Anomalía Congenita","Gravedad del ESAVI - Anomalía Congenita","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS","",,,,"NotificacionESAVI.s_GravedadEventoAdverso.GravedadAnomaliaCongenita",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso.GravedadAborto","","","",1,1,"","","Y","Coding {[]} {[]}
+","Gravedad del ESAVI - Aborto","Gravedad del ESAVI - Aborto","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS","",,,,"NotificacionESAVI.s_GravedadEventoAdverso.GravedadAborto",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso.GravedadMuerteFetal","","","",1,1,"","","Y","Coding {[]} {[]}
+","Gravedad del ESAVI - Muerte Fetal","Gravedad del ESAVI - Muerte Fetal","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS","",,,,"NotificacionESAVI.s_GravedadEventoAdverso.GravedadMuerteFetal",1,1,"",""
+"NotificacionESAVI.s_GravedadEventoAdverso.GravedadOtro","","","",1,1,"","","Y","Coding {[]} {[]}
+","Gravedad del ESAVI - Otro","Gravedad del ESAVI - Otro","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS","",,,,"NotificacionESAVI.s_GravedadEventoAdverso.GravedadOtro",1,1,"",""
+"NotificacionESAVI.s_Desenlace","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Desenlace del Evento Adverso","Desenlace del Evento Adverso","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_Desenlace",1,1,"",""
+"NotificacionESAVI.s_Desenlace.ClasificacionDesenlace","","","",1,1,"","","Y","Coding {[]} {[]}
+","Clasificacion del Desenlace","Clasificacion del Desenlace","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/ClasificacionDesenlaceVS","",,,,"NotificacionESAVI.s_Desenlace.ClasificacionDesenlace",1,1,"",""
+"NotificacionESAVI.s_Desenlace.FechaMuerte","","","",1,1,"","","Y","dateTime {[]} {[]}
+","Fecha de la Muerte","Fecha de la Muerte","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_Desenlace.FechaMuerte",1,1,"",""
+"NotificacionESAVI.s_Desenlace.RealizacionAutopsia","","","",1,1,"","","Y","Coding {[]} {[]}
+","Se realizó Autopsia","Se realizó Autopsia","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS","",,,,"NotificacionESAVI.s_Desenlace.RealizacionAutopsia",1,1,"",""
+"NotificacionESAVI.s_Conclusiones","","","",1,1,"","","Y","BackboneElement {[]} {[]}
+","Investigación / Conclusiones","Investigación / Conclusiones","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_Conclusiones",1,1,"",""
+"NotificacionESAVI.s_Conclusiones.InvestigacionRequerida","","","",1,1,"","","Y","boolean {[]} {[]}
+","Se requiere investigación","Se requiere investigación","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_Conclusiones.InvestigacionRequerida",1,1,"",""
+"NotificacionESAVI.s_Conclusiones.InvestigacionTipo","","","",0,1,"","","Y","Coding {[]} {[]}
+","Tipo de Investigacion Requerida","Tipo de Investigacion Requerida","","","","","","","","","",,"required","","http://paho.org/esavi/ValueSet/InvestigacionTipoVS","",,,,"NotificacionESAVI.s_Conclusiones.InvestigacionTipo",0,1,"",""
+"NotificacionESAVI.s_Conclusiones.InvestigacionFechaPlaneada","","","",0,1,"","","Y","dateTime {[]} {[]}
+","Fecha de Investigación Planeada","Fecha de Investigación Planeada","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_Conclusiones.InvestigacionFechaPlaneada",0,1,"",""
+"NotificacionESAVI.s_Conclusiones.ComentariosFinales","","","",0,1,"","","Y","string {[]} {[]}
+","Comentarios Finales","Comentarios Finales","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_Conclusiones.ComentariosFinales",0,1,"",""
+"NotificacionESAVI.s_Conclusiones.FechaRecepcionNivelNacional","","","",1,1,"","","","dateTime {[]} {[]}
+","Fecha de Recepcion A Nivel Nacional","Fecha de Recepcion A Nivel Nacional","","","","","","","","","",,,,,"",,,,"NotificacionESAVI.s_Conclusiones.FechaRecepcionNivelNacional",1,1,"",""

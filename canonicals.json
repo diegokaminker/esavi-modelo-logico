@@ -1,0 +1,170 @@
+[
+  {
+    "id": "uv.aefi",
+    "type": "ImplementationGuide",
+    "url": "http://covid-19pharmacovigilance.paho.org/resources/ImplementationGuide/uv.aefi",
+    "version": "0.5.0",
+    "name": "AEFI"
+  },
+  {
+    "id": "ClasificacionDesenlaceCS",
+    "type": "CodeSystem",
+    "url": "http://paho.org/esavi/CodeSystem/ClasificacionDesenlaceCS",
+    "version": "0.5.0",
+    "name": "ClasificacionDesenlaceCS"
+  },
+  {
+    "id": "EventoAdversoVacunaCS",
+    "type": "CodeSystem",
+    "url": "http://paho.org/esavi/CodeSystem/EventoAdversoVacunaCS",
+    "version": "0.5.0",
+    "name": "EventoAdversoVacunaCS"
+  },
+  {
+    "id": "GrupoEtnicoCS",
+    "type": "CodeSystem",
+    "url": "http://paho.org/esavi/CodeSystem/GrupoEtnicoCS",
+    "version": "0.5.0",
+    "name": "GrupoEtnicoCS"
+  },
+  {
+    "id": "InvestigacionTipoCS",
+    "type": "CodeSystem",
+    "url": "http://paho.org/esavi/CodeSystem/InvestigacionTipoCS",
+    "version": "0.5.0",
+    "name": "InvestigacionTipoCS"
+  },
+  {
+    "id": "ModoConfirmacionInfeccionCS",
+    "type": "CodeSystem",
+    "url": "http://paho.org/esavi/CodeSystem/ModoConfirmacionInfeccionCS",
+    "version": "0.5.0",
+    "name": "ModoConfirmacionInfeccionCS"
+  },
+  {
+    "id": "ModoVerificacionVacunaCS",
+    "type": "CodeSystem",
+    "url": "http://paho.org/esavi/CodeSystem/ModoVerificacionVacunaCS",
+    "version": "0.5.0",
+    "name": "ModoVerificacionVacunaCS"
+  },
+  {
+    "id": "RespuestaSiNoNosabeCS",
+    "type": "CodeSystem",
+    "url": "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS",
+    "version": "0.5.0",
+    "name": "RespuestaSiNoNosabeCS"
+  },
+  {
+    "id": "RespuestaVerdaderoFalsoCS",
+    "type": "CodeSystem",
+    "url": "http://paho.org/esavi/CodeSystem/RespuestaVerdaderoFalsoCS",
+    "version": "0.5.0",
+    "name": "RespuestaVerdaderoFalsoCS"
+  },
+  {
+    "id": "Composition-esavi",
+    "type": "StructureDefinition",
+    "url": "http://paho.org/esavi/StructureDefinition/Composition-esavi",
+    "version": "0.5.0",
+    "name": "Composition_esavi"
+  },
+  {
+    "id": "NotificacionESAVI",
+    "type": "StructureDefinition",
+    "url": "http://paho.org/esavi/StructureDefinition/NotificacionESAVI",
+    "version": "0.5.0",
+    "name": "NotificacionESAVI"
+  },
+  {
+    "id": "Patient-esavi",
+    "type": "StructureDefinition",
+    "url": "http://paho.org/esavi/StructureDefinition/Patient-esavi",
+    "version": "0.5.0",
+    "name": "Patient_esavi"
+  },
+  {
+    "id": "Practitioner-esavi",
+    "type": "StructureDefinition",
+    "url": "http://paho.org/esavi/StructureDefinition/Practitioner-esavi",
+    "version": "0.5.0",
+    "name": "Practitioner_esavi"
+  },
+  {
+    "id": "esavi-response-antecedentes",
+    "type": "StructureDefinition",
+    "url": "http://paho.org/esavi/StructureDefinition/esavi-response-antecedentes",
+    "version": "0.5.0",
+    "name": "Esavi_response_antecedentes"
+  },
+  {
+    "id": "ClasificacionDesenlaceVS",
+    "type": "ValueSet",
+    "url": "http://paho.org/esavi/ValueSet/ClasificacionDesenlaceVS",
+    "version": "0.5.0",
+    "name": "ClasificacionDesenlaceVS"
+  },
+  {
+    "id": "EventoAdversoCodificacionVS",
+    "type": "ValueSet",
+    "url": "http://paho.org/esavi/ValueSet/EventoAdversoCodificacionVS",
+    "version": "0.5.0",
+    "name": "EventoAdversoCodificacionVS"
+  },
+  {
+    "id": "EventoAdversoVacunaVS",
+    "type": "ValueSet",
+    "url": "http://paho.org/esavi/ValueSet/EventoAdversoVacunaVS",
+    "version": "0.5.0",
+    "name": "EventoAdversoVacunaVS"
+  },
+  {
+    "id": "GrupoEtnicoVS",
+    "type": "ValueSet",
+    "url": "http://paho.org/esavi/ValueSet/GrupoEtnicoVS",
+    "version": "0.5.0",
+    "name": "GrupoEtnicoVS"
+  },
+  {
+    "id": "InvestigacionTipoVS",
+    "type": "ValueSet",
+    "url": "http://paho.org/esavi/ValueSet/InvestigacionTipoVS",
+    "version": "0.5.0",
+    "name": "InvestigacionTipoVS"
+  },
+  {
+    "id": "ModoConfirmacionInfeccionVS",
+    "type": "ValueSet",
+    "url": "http://paho.org/esavi/ValueSet/ModoConfirmacionInfeccionVS",
+    "version": "0.5.0",
+    "name": "ModoConfirmacionInfeccionVS"
+  },
+  {
+    "id": "ModoVerificacionVacunaVS",
+    "type": "ValueSet",
+    "url": "http://paho.org/esavi/ValueSet/ModoVerificacionVacunaVS",
+    "version": "0.5.0",
+    "name": "ModoVerificacionVacunaVS"
+  },
+  {
+    "id": "RespuestaSiNoNosabeVS",
+    "type": "ValueSet",
+    "url": "http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS",
+    "version": "0.5.0",
+    "name": "RespuestaSiNoNosabeVS"
+  },
+  {
+    "id": "RespuestaVerdaderoFalsoVS",
+    "type": "ValueSet",
+    "url": "http://paho.org/esavi/ValueSet/RespuestaVerdaderoFalsoVS",
+    "version": "0.5.0",
+    "name": "RespuestaVerdaderoFalsoVS"
+  },
+  {
+    "id": "EsaviCuestionarioCompleto",
+    "type": "Questionnaire",
+    "url": "http://paho.org/esavi/notification/v2",
+    "version": "0.5.0",
+    "name": "ESAVI_Notification_Form_V2"
+  }
+]

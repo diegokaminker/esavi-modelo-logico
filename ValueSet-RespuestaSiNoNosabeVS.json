@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "id": "RespuestaSiNoNosabeVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-RespuestaSiNoNosabeCS.html\"><code>http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS</code></a></li></ul></div>"
+  },
+  "url": "http://paho.org/esavi/ValueSet/RespuestaSiNoNosabeVS",
+  "version": "0.5.0",
+  "name": "RespuestaSiNoNosabeVS",
+  "status": "active",
+  "date": "2021-10-03T10:17:18-03:00",
+  "publisher": "PAHO",
+  "contact": [
+    {
+      "name": "PAHO",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://covid-19pharmacovigilance.paho.org"
+        },
+        {
+          "system": "email",
+          "value": "privadadngiss@msal.gov.ar"
+        }
+      ]
+    }
+  ],
+  "description": "Para capturar respuestas simples si/no/no sabe",
+  "compose": {
+    "include": [
+      {
+        "system": "http://paho.org/esavi/CodeSystem/RespuestaSiNoNosabeCS"
+      }
+    ]
+  }
+}

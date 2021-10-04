@@ -1,0 +1,147 @@
+{
+  "resourceType": "Composition",
+  "id": "NotificacionESAVIEjemplo",
+  "meta": {
+    "profile": [
+      "http://paho.org/esavi/StructureDefinition/Composition-esavi"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: AR-4444-9b0e-1adc-007a-4f5cecb8ce6a</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 85893-6}\">Adverse event note</span></p><p><b>date</b>: Dec 10, 2021, 7:18:00 PM</p><p><b>author</b>: <a href=\"Practitioner-PersonaNotificadoraEjemplo.html\">Generated Summary: María Notificadora </a></p><p><b>title</b>: Notificación ESAVI</p></div>"
+  },
+  "identifier": {
+    "system": "http://paho.esavi.org/reportes",
+    "value": "AR-4444-9b0e-1adc-007a-4f5cecb8ce6a"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "85893-6",
+        "display": "Adverse event note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "PersonaVacunadaEjemplo"
+  },
+  "date": "2021-12-10T17:18:00-05:00",
+  "author": [
+    {
+      "reference": "Practitioner/PersonaNotificadoraEjemplo"
+    }
+  ],
+  "title": "Notificación ESAVI",
+  "section": [
+    {
+      "title": "Antecedentes de la Persona Vacunada",
+      "code": {
+        "coding": [
+          {
+            "system": "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS",
+            "code": "s_AntecedentesPersonaVacunada"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hola</div>"
+      },
+      "entry": [
+        {
+          "reference": "QuestionnaireResponse/RespuestaAntecedentesEjemplo"
+        }
+      ]
+    },
+    {
+      "title": "Participacion en Ensayo Clinico",
+      "code": {
+        "coding": [
+          {
+            "system": "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS",
+            "code": "s_ParticipacionEnsayoClinico"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Detalles Embarazo",
+      "code": {
+        "coding": [
+          {
+            "system": "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS",
+            "code": "s_DetallesEmbarazo"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Administración de Vacuna",
+      "code": {
+        "coding": [
+          {
+            "system": "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS",
+            "code": "s_AdministracionVacuna"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Vacunación Previa",
+      "code": {
+        "coding": [
+          {
+            "system": "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS",
+            "code": "s_VacunacionPrevia"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Evento Adverso",
+      "code": {
+        "coding": [
+          {
+            "system": "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS",
+            "code": "s_EventoAdverso"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Gravedad del Evento Adverso",
+      "code": {
+        "coding": [
+          {
+            "system": "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS",
+            "code": "s_GravedadEventoAdverso"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Desenlace del Evento Adverso",
+      "code": {
+        "coding": [
+          {
+            "system": "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS",
+            "code": "s_Desenlace"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Conclusiones",
+      "code": {
+        "coding": [
+          {
+            "system": "http://paho.org/esavi/CodeSystem/SeccionesNotificacionCS",
+            "code": "s_Conclusiones"
+          }
+        ]
+      }
+    }
+  ]
+}
